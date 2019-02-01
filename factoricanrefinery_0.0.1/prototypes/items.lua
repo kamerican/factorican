@@ -227,7 +227,7 @@ data:extend(
         name = "fr-combustion-turbine",
         icons = {
             {
-                icon = "__base__/graphics/icons/items/steam-turbine.png",
+                icon = "__base__/graphics/icons/steam-turbine.png",
                 tint = {r=0.88, g=0.88, b=0.86, a=0.3}
             }
         },

@@ -14,7 +14,7 @@ data:extend(
 			{type="fluid", name="fr-dead-oil", amount=70},
 			{type="fluid", name="fr-solution-gas", amount=30},
 		},
-		icon = "__factoricanrefinery__/graphics/icons/recipes/fr-crude-oil-separation",
+		icon = "__factoricanrefinery__/graphics/icons/recipes/fr-crude-oil-separation.png",
 		icon_size = 32,
 		order = "z",
     },
@@ -50,7 +50,7 @@ data:extend(
 		results = {
 			{type="fluid", name="lubricant", amount=10},
 		},
-		icon = "__factoricanrefinery__/graphics/icons/recipes/lubricant.png",
+		icon = "__factoricanrefinery__/graphics/icons/recipes/fr-lubricant-from-base-oil.png",
 		icon_size = 32,
 		order = "z",
     },
@@ -73,7 +73,6 @@ data:extend(
 		icon_size = 32,
 		order = "z",
     },
-    -- solid fuel production
     {
 		type = "recipe",
 		name = "fr-5",
@@ -87,7 +86,7 @@ data:extend(
 		results = {
 			{type="item", name="solid-fuel", amount=1},
 		},
-		icon = "__factoricanrefinery__/graphics/icons/recipes/",
+		icon = "__factoricanrefinery__/graphics/icons/recipes/fr-solid-fuel-from-fuel-oil.png",
 		icon_size = 32,
 		order = "z",
     },
@@ -105,11 +104,10 @@ data:extend(
 			{type="item", name="solid-fuel", amount=1},
 			{type="fluid", name="fr-hydrogen-sulfide", amount=20},
 		},
-		icon = "__factoricanrefinery__/graphics/icons/recipes/",
+		icon = "__factoricanrefinery__/graphics/icons/recipes/fr-solid-fuel-from-residual-oil.png",
 		icon_size = 32,
 		order = "z",
     },
-    -- fuel oil cracking
     {
 		type = "recipe",
 		name = "fr-7",
@@ -125,11 +123,10 @@ data:extend(
 			{type="fluid", name="fr-naphtha", amount=30},
 			{type="fluid", name="fr-residual-oil", amount=20},
 		},
-		icon = "__factoricanrefinery__/graphics/icons/recipes/",
+		icon = "__factoricanrefinery__/graphics/icons/recipes/fr-fuel-oil-cracking.png",
 		icon_size = 32,
 		order = "z",
     },
-    -- polymer feed production
     {
 		type = "recipe",
 		name = "fr-8",
@@ -144,7 +141,7 @@ data:extend(
 		results = {
 			{type="fluid", name="fr-polymer-feed", amount=30},
 		},
-		icon = "__factoricanrefinery__/graphics/icons/recipes/",
+		icon = "__factoricanrefinery__/graphics/icons/recipes/fr-polymer-feed-from-naphtha.png",
 		icon_size = 32,
 		order = "z",
     },
@@ -162,11 +159,10 @@ data:extend(
 		results = {
 			{type="fluid", name="fr-polymer-feed", amount=50},
 		},
-		icon = "__factoricanrefinery__/graphics/icons/recipes/",
+		icon = "__factoricanrefinery__/graphics/icons/recipes/fr-polymer-feed-from-natural-gas-liquid.png",
 		icon_size = 32,
 		order = "z",
     },
-    -- plastic bar production
     {
 		type = "recipe",
 		name = "fr-10",
@@ -181,12 +177,10 @@ data:extend(
 		results = {
 			{type="item", name="plastic-bar", amount=1},
 		},
-		icon = "__factoricanrefinery__/graphics/icons/recipes/",
+		icon = "__factoricanrefinery__/graphics/icons/recipes/fr-plastic-bar.png",
 		icon_size = 32,
 		order = "z",
     },
-    
-    -- cryogenic distillation
     {
 		type = "recipe",
 		name = "fr-11",
@@ -202,11 +196,10 @@ data:extend(
 			{type="fluid", name="fr-natural-gas-liquid", amount=30},
 			{type="fluid", name="fr-hydrogen-sulfide", amount=20},
 		},
-		icon = "__factoricanrefinery__/graphics/icons/recipes/",
+		icon = "__factoricanrefinery__/graphics/icons/recipes/fr-solution-gas-cryogenic-distillation.png",
 		icon_size = 32,
 		order = "z",
     },
-    -- combustion fuel production
     {
 		type = "recipe",
 		name = "fr-12",
@@ -222,11 +215,10 @@ data:extend(
 			{type="fluid", name="fr-combustion-fuel", amount=50, temperature=1000},
 			{type="fluid", name="steam", amount=50, temperature=165},
 		},
-		icon = "__factoricanrefinery__/graphics/icons/recipes/",
+		icon = "__factoricanrefinery__/graphics/icons/items/fr-combustion-fuel.png",
 		icon_size = 32,
 		order = "z",
     },
-    -- sulfur production chain
     {
 		type = "recipe",
 		name = "fr-13",
@@ -240,7 +232,7 @@ data:extend(
 		results = {
 			{type="fluid", name="fr-sulfur-dioxide", amount=50},
 		},
-		icon = "__factoricanrefinery__/graphics/icons/recipes/",
+		icon = "__factoricanrefinery__/graphics/icons/recipes/fr-sulfur-dioxide-from-hydrogen-sulfide.png",
 		icon_size = 32,
 		order = "z",
     },
@@ -257,7 +249,7 @@ data:extend(
 		results = {
 			{type="fluid", name="fr-sulfur-dioxide", amount=10},
 		},
-		icon = "__factoricanrefinery__/graphics/icons/recipes/",
+		icon = "__factoricanrefinery__/graphics/icons/recipes/fr-sulfur-dioxide-from-sulfur.png",
 		icon_size = 32,
 		order = "z",
     },
@@ -276,7 +268,7 @@ data:extend(
 		results = {
 			{type="item", name="sulfur", amount=3},
 		},
-		icon = "__factoricanrefinery__/graphics/icons/recipes/",
+		icon = "__factoricanrefinery__/graphics/icons/recipes/fr-sulfur-from-claus-process.png",
 		icon_size = 32,
 		order = "z",
     },
@@ -294,7 +286,7 @@ data:extend(
 		results = {
 			{type="fluid", name="fr-sulfur-trioxide", amount=10},
 		},
-		icon = "__factoricanrefinery__/graphics/icons/recipes/",
+		icon = "__factoricanrefinery__/graphics/icons/items/fr-sulfur-trioxide.png",
 		icon_size = 32,
 		order = "z",
     },
@@ -312,7 +304,7 @@ data:extend(
 		results = {
 			{type="fluid", name="sulfuric-acid", amount=10},
 		},
-		icon = "__factoricanrefinery__/graphics/icons/recipes/",
+		icon = "__factoricanrefinery__/graphics/icons/recipes/fr-sulfuric-acid.png",
 		icon_size = 32,
 		order = "z",
     },
@@ -329,7 +321,7 @@ data:extend(
 		results = {
 			{type="fluid", name="fr-crosslinker", amount=10},
 		},
-		icon = "__factoricanrefinery__/graphics/icons/recipes/",
+		icon = "__factoricanrefinery__/graphics/icons/items/fr-crosslinker.png",
 		icon_size = 32,
 		order = "z",
     },
@@ -347,11 +339,10 @@ data:extend(
 		results = {
 			{type="fluid", name="fr-polymer-feed", amount=90},
 		},
-		icon = "__factoricanrefinery__/graphics/icons/recipes/",
+		icon = "__factoricanrefinery__/graphics/icons/recipes/fr-polymer-feed-from-inverse-vulcanization.png",
 		icon_size = 32,
 		order = "z",
     },
-    -- combustion turbine
     {
 		type = "recipe",
 		name = "fr-20",
@@ -366,13 +357,17 @@ data:extend(
 			{type="item", name="pipe", amount=20},
 		},
 		results = {
-			{type="item", name="fr-combustion-turbine", amount=90},
-		},
-		icon = "__factoricanrefinery__/graphics/icons/recipes/",
+			{type="item", name="fr-combustion-turbine", amount=1},
+        },
+        icons = {
+            {
+                icon = "__base__/graphics/icons/steam-turbine.png",
+                tint = {r=0.88, g=0.88, b=0.86, a=0.3}
+            }
+        },
 		icon_size = 32,
 		order = "z",
     },
-    -- metal oxide catalyst production
     {
 		type = "recipe",
 		name = "fr-21",
@@ -387,7 +382,7 @@ data:extend(
 		results = {
 			{type="item", name="fr-metal-oxide-catalyst", amount=10},
 		},
-		icon = "__factoricanrefinery__/graphics/icons/recipes/",
+		icon = "__factoricanrefinery__/graphics/icons/items/fr-metal-oxide-catalyst.png",
 		icon_size = 32,
 		order = "z",
     },
