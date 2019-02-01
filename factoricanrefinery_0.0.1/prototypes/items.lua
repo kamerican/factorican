@@ -3,10 +3,10 @@ data:extend(
     -- hydrogen sulfide
     {
         type = "fluid",
-        name = "fluid-hydrogen-sulfide",
-        icon = "__factoricanrefinery__/graphics/icons/fluid-hydrogen-sulfide.png",
+        name = "fr-hydrogen-sulfide",
+        icon = "__factoricanrefinery__/graphics/icons/items/fr-hydrogen-sulfide.png",
         icon_size = 32,
-        subgroup = "fluids-refinery",
+        subgroup = "fluid",
         default_temperature = 25,
         heat_capacity = "0.1KJ",
         base_color = {r = 0.75, g = 0.65, b = 0.1},
@@ -18,10 +18,10 @@ data:extend(
     -- sulfur dioxide
     {
         type = "fluid",
-        name = "fluid-sulfur-dioxide",
-        icon = "__factoricanrefinery__/graphics/icons/fluid-sulfur-dioxide.png",
+        name = "fr-sulfur-dioxide",
+        icon = "__factoricanrefinery__/graphics/icons/items/fr-sulfur-dioxide.png",
         icon_size = 32,
-        subgroup = "fluids-refinery",
+        subgroup = "fluid",
         default_temperature = 25,
         heat_capacity = "0.1KJ",
         base_color = {r = 0.75, g = 0.65, b = 0.1},
@@ -33,10 +33,10 @@ data:extend(
     -- sulfur trioxide
     {
         type = "fluid",
-        name = "fluid-sulfur-trioxide",
-        icon = "__factoricanrefinery__/graphics/icons/fluid-sulfur-trioxide.png",
+        name = "fr-sulfur-trioxide",
+        icon = "__factoricanrefinery__/graphics/icons/items/fr-sulfur-trioxide.png",
         icon_size = 32,
-        subgroup = "fluids-refinery",
+        subgroup = "fluid",
         default_temperature = 25,
         heat_capacity = "0.1KJ",
         base_color = {r = 0.75, g = 0.65, b = 0.1},
@@ -48,10 +48,10 @@ data:extend(
     -- polymer feed
     {
         type = "fluid",
-        name = "fluid-polymer-feed",
-        icon = "__factoricanrefinery__/graphics/icons/fluid-polymer-feed.png",
+        name = "fr-polymer-feed",
+        icon = "__factoricanrefinery__/graphics/icons/items/fr-polymer-feed.png",
         icon_size = 32,
-        subgroup = "fluids-refinery",
+        subgroup = "fluid",
         default_temperature = 25,
         heat_capacity = "0.1KJ",
         base_color = {r = 1, g = 1, b = 1},
@@ -63,10 +63,10 @@ data:extend(
     -- crosslinker
     {
         type = "fluid",
-        name = "fluid-crosslinker",
-        icon = "__factoricanrefinery__/graphics/icons/fluid-crosslinker.png",
+        name = "fr-crosslinker",
+        icon = "__factoricanrefinery__/graphics/icons/items/fr-crosslinker.png",
         icon_size = 32,
-        subgroup = "fluids-refinery",
+        subgroup = "fluid",
         default_temperature = 25,
         heat_capacity = "0.1KJ",
         base_color = {r = 1, g = 1, b = 1},
@@ -78,10 +78,10 @@ data:extend(
     -- dead oil
     {
         type = "fluid",
-        name = "fluid-dead-oil",
-        icon = "__factoricanrefinery__/graphics/icons/fluid-dead-oil.png",
+        name = "fr-dead-oil",
+        icon = "__factoricanrefinery__/graphics/icons/items/fr-dead-oil.png",
         icon_size = 32,
-        subgroup = "fluids-refinery",
+        subgroup = "fluid",
         default_temperature = 25,
         heat_capacity = "0.1KJ",
         base_color = {r = 0, g = 0, b = 0},
@@ -93,10 +93,10 @@ data:extend(
     -- base oil
     {
         type = "fluid",
-        name = "fluid-base-oil",
-        icon = "__factoricanrefinery__/graphics/icons/fluid-base-oil.png",
+        name = "fr-base-oil",
+        icon = "__factoricanrefinery__/graphics/icons/items/fr-base-oil.png",
         icon_size = 32,
-        subgroup = "fluids-refinery",
+        subgroup = "fluid",
         default_temperature = 25,
         heat_capacity = "0.1KJ",
         base_color = {r = 0.27, g = 0.11, b = 0},
@@ -108,10 +108,10 @@ data:extend(
     -- fuel oil
     {
         type = "fluid",
-        name = "fluid-fuel-oil",
-        icon = "__factoricanrefinery__/graphics/icons/fluid-fuel-oil.png",
+        name = "fr-fuel-oil",
+        icon = "__factoricanrefinery__/graphics/icons/items/fr-fuel-oil.png",
         icon_size = 32,
-        subgroup = "fluids-refinery",
+        subgroup = "fluid",
         default_temperature = 25,
         heat_capacity = "0.1KJ",
         base_color = {r = 0.86, g = 0.7, b = 0},
@@ -123,10 +123,10 @@ data:extend(
     -- naphtha
     {
         type = "fluid",
-        name = "fluid-naphtha",
-        icon = "__factoricanrefinery__/graphics/icons/fluid-naphtha.png",
+        name = "fr-naphtha",
+        icon = "__factoricanrefinery__/graphics/icons/items/fr-naphtha.png",
         icon_size = 32,
-        subgroup = "fluids-refinery",
+        subgroup = "fluid",
         default_temperature = 25,
         heat_capacity = "0.1KJ",
         base_color = {r = 0.65, g = 0.3, b = 0.13},
@@ -138,10 +138,10 @@ data:extend(
     -- residual oil
     {
         type = "fluid",
-        name = "fluid-residual-oil",
-        icon = "__factoricanrefinery__/graphics/icons/fluid-residual-oil.png",
+        name = "fr-residual-oil",
+        icon = "__factoricanrefinery__/graphics/icons/items/fr-residual-oil.png",
         icon_size = 32,
-        subgroup = "fluids-refinery",
+        subgroup = "fluid",
         default_temperature = 25,
         heat_capacity = "0.1KJ",
         base_color = {r = 0.5, g = 0, b = 0.5},
@@ -153,10 +153,10 @@ data:extend(
     -- solution gas
     {
         type = "fluid",
-        name = "fluid-solution-gas",
-        icon = "__factoricanrefinery__/graphics/icons/fluid-solution-gas.png",
+        name = "fr-solution-gas",
+        icon = "__factoricanrefinery__/graphics/icons/items/fr-solution-gas.png",
         icon_size = 32,
-        subgroup = "fluids-refinery",
+        subgroup = "fluid",
         default_temperature = 25,
         heat_capacity = "0.1KJ",
         base_color = {r = 0.35, g = 0.44, b = 0.29},
@@ -168,10 +168,10 @@ data:extend(
     -- natural gas
     {
         type = "fluid",
-        name = "fluid-natural-gas",
-        icon = "__factoricanrefinery__/graphics/icons/fluid-natural-gas.png",
+        name = "fr-natural-gas",
+        icon = "__factoricanrefinery__/graphics/icons/items/fr-natural-gas.png",
         icon_size = 32,
-        subgroup = "fluids-refinery",
+        subgroup = "fluid",
         default_temperature = 25,
         heat_capacity = "0.1KJ",
         base_color = {r = 0.35, g = 0.44, b = 0.29},
@@ -183,10 +183,10 @@ data:extend(
     -- natural gas liquids
     {
         type = "fluid",
-        name = "fluid-natural-gas-liquid",
-        icon = "__factoricanrefinery__/graphics/icons/fluid-natural-gas-liquid.png",
+        name = "fr-natural-gas-liquid",
+        icon = "__factoricanrefinery__/graphics/icons/items/fr-natural-gas-liquid.png",
         icon_size = 32,
-        subgroup = "fluids-refinery",
+        subgroup = "fluid",
         default_temperature = 25,
         heat_capacity = "0.1KJ",
         base_color = {r = 0.35, g = 0.44, b = 0.29},
@@ -198,10 +198,10 @@ data:extend(
     -- combustion fuel
     {
         type = "fluid",
-        name = "fluid-combustion-fuel",
-        icon = "__factoricanrefinery__/graphics/icons/fluid-combustion-fuel.png",
+        name = "fr-combustion-fuel",
+        icon = "__factoricanrefinery__/graphics/icons/items/fr-combustion-fuel.png",
         icon_size = 32,
-        subgroup = "fluids-refinery",
+        subgroup = "fluid",
         default_temperature = 25,
         heat_capacity = "0.1KJ",
         base_color = {r = 0.96, g = 0.44, b = 0.13},
@@ -210,31 +210,32 @@ data:extend(
         pressure_to_speed_ratio = 0.4,
         flow_to_energy_ratio = 0.59,
     },
-    -- metal oxide catalyst @@@@ may have ISSUES WITH SUBGROUP
+    -- metal oxide catalyst
     {
         type = "item",
-        name = "solid-metal-oxide-catalyst",
-        icon = "__factoricanrefinery__/graphics/icons/solid-metal-oxide-catalyst.png",
+        name = "fr-metal-oxide-catalyst",
+        icon = "__factoricanrefinery__/graphics/icons/items/fr-metal-oxide-catalyst.png",
         icon_size = 32,
         flags = {"goes-to-main-inventory"},
-        subgroup = "fluids-refinery",
+        subgroup = "intermediate-product",
         order = "f",
         stack_size = 100
     },
     -- combustion turbine
     {
         type = "item",
-        name = "building-combustion-turbine",
+        name = "fr-combustion-turbine",
         icons = {
             {
-                icon = "__base__/graphics/icons/steam-turbine.png",
+                icon = "__base__/graphics/icons/items/steam-turbine.png",
                 tint = {r=0.88, g=0.88, b=0.86, a=0.3}
             }
         },
         icon_size = 32,
         flags = {"goes-to-main-inventory"},
-        subgroup = "fluids-refinery",
+        subgroup = "energy",
         order = "f",
-        stack_size = 10
+        stack_size = 10,
+        place_result = "fr-combustion-turbine"
     },
 })
