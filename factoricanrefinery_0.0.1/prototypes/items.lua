@@ -135,6 +135,21 @@ data:extend(
         pressure_to_speed_ratio = 0.4,
         flow_to_energy_ratio = 0.59,
     },
+    -- residual oil
+    {
+        type = "fluid",
+        name = "fluid-residual-oil",
+        icon = "__factoricanrefinery__/graphics/icons/fluid-residual-oil.png",
+        icon_size = 32,
+        subgroup = "fluids-refinery",
+        default_temperature = 25,
+        heat_capacity = "0.1KJ",
+        base_color = {r = 0.5, g = 0, b = 0.5},
+        flow_color = {r = 0.5, g = 0, b = 0.5},
+        max_temperature = 100,
+        pressure_to_speed_ratio = 0.4,
+        flow_to_energy_ratio = 0.59,
+    },
     -- solution gas
     {
         type = "fluid",
@@ -194,5 +209,32 @@ data:extend(
         max_temperature = 2000,
         pressure_to_speed_ratio = 0.4,
         flow_to_energy_ratio = 0.59,
+    },
+    -- metal oxide catalyst @@@@ may have ISSUES WITH SUBGROUP
+    {
+        type = "item",
+        name = "solid-metal-oxide-catalyst",
+        icon = "__factoricanrefinery__/graphics/icons/solid-metal-oxide-catalyst.png",
+        icon_size = 32,
+        flags = {"goes-to-main-inventory"},
+        subgroup = "fluids-refinery",
+        order = "f",
+        stack_size = 100
+    },
+    -- combustion turbine
+    {
+        type = "item",
+        name = "building-combustion-turbine",
+        icons = {
+            {
+                icon = "__base__/graphics/icons/steam-turbine.png",
+                tint = {r=0.88, g=0.88, b=0.86, a=0.3}
+            }
+        },
+        icon_size = 32,
+        flags = {"goes-to-main-inventory"},
+        subgroup = "fluids-refinery",
+        order = "f",
+        stack_size = 10
     },
 })
