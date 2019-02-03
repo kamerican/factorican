@@ -1,7 +1,7 @@
 {
-	"name": "factoricanrefinery",
+	"name": "factoricanindustry",
 	"version": "0.0.1",
-	"title": "Factorican Refinery",
+	"title": "Factorican Industry",
 	"author": "Factorican",
 	"homepage": "https://forums.factorio.com/",
 	"description": "Adds a small oil refinery production chain, using vanilla inputs and outputs.",

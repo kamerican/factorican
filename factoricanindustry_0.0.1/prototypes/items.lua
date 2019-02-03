@@ -4,7 +4,7 @@ data:extend(
     {
         type = "fluid",
         name = "fr-hydrogen-sulfide",
-        icon = "__factoricanrefinery__/graphics/icons/items/fr-hydrogen-sulfide.png",
+        icon = "__factoricanindustry__/graphics/icons/items/fr-hydrogen-sulfide.png",
         icon_size = 32,
         subgroup = "fluid",
         default_temperature = 25,
@@ -19,7 +19,7 @@ data:extend(
     {
         type = "fluid",
         name = "fr-sulfur-dioxide",
-        icon = "__factoricanrefinery__/graphics/icons/items/fr-sulfur-dioxide.png",
+        icon = "__factoricanindustry__/graphics/icons/items/fr-sulfur-dioxide.png",
         icon_size = 32,
         subgroup = "fluid",
         default_temperature = 25,
@@ -34,7 +34,7 @@ data:extend(
     {
         type = "fluid",
         name = "fr-sulfur-trioxide",
-        icon = "__factoricanrefinery__/graphics/icons/items/fr-sulfur-trioxide.png",
+        icon = "__factoricanindustry__/graphics/icons/items/fr-sulfur-trioxide.png",
         icon_size = 32,
         subgroup = "fluid",
         default_temperature = 25,
@@ -49,7 +49,7 @@ data:extend(
     {
         type = "fluid",
         name = "fr-polymer-feed",
-        icon = "__factoricanrefinery__/graphics/icons/items/fr-polymer-feed.png",
+        icon = "__factoricanindustry__/graphics/icons/items/fr-polymer-feed.png",
         icon_size = 32,
         subgroup = "fluid",
         default_temperature = 25,
@@ -64,7 +64,7 @@ data:extend(
     {
         type = "fluid",
         name = "fr-crosslinker",
-        icon = "__factoricanrefinery__/graphics/icons/items/fr-crosslinker.png",
+        icon = "__factoricanindustry__/graphics/icons/items/fr-crosslinker.png",
         icon_size = 32,
         subgroup = "fluid",
         default_temperature = 25,
@@ -79,7 +79,7 @@ data:extend(
     {
         type = "fluid",
         name = "fr-dead-oil",
-        icon = "__factoricanrefinery__/graphics/icons/items/fr-dead-oil.png",
+        icon = "__factoricanindustry__/graphics/icons/items/fr-dead-oil.png",
         icon_size = 32,
         subgroup = "fluid",
         default_temperature = 25,
@@ -94,7 +94,7 @@ data:extend(
     {
         type = "fluid",
         name = "fr-base-oil",
-        icon = "__factoricanrefinery__/graphics/icons/items/fr-base-oil.png",
+        icon = "__factoricanindustry__/graphics/icons/items/fr-base-oil.png",
         icon_size = 32,
         subgroup = "fluid",
         default_temperature = 25,
@@ -109,7 +109,7 @@ data:extend(
     {
         type = "fluid",
         name = "fr-fuel-oil",
-        icon = "__factoricanrefinery__/graphics/icons/items/fr-fuel-oil.png",
+        icon = "__factoricanindustry__/graphics/icons/items/fr-fuel-oil.png",
         icon_size = 32,
         subgroup = "fluid",
         default_temperature = 25,
@@ -124,7 +124,7 @@ data:extend(
     {
         type = "fluid",
         name = "fr-naphtha",
-        icon = "__factoricanrefinery__/graphics/icons/items/fr-naphtha.png",
+        icon = "__factoricanindustry__/graphics/icons/items/fr-naphtha.png",
         icon_size = 32,
         subgroup = "fluid",
         default_temperature = 25,
@@ -139,7 +139,7 @@ data:extend(
     {
         type = "fluid",
         name = "fr-residual-oil",
-        icon = "__factoricanrefinery__/graphics/icons/items/fr-residual-oil.png",
+        icon = "__factoricanindustry__/graphics/icons/items/fr-residual-oil.png",
         icon_size = 32,
         subgroup = "fluid",
         default_temperature = 25,
@@ -154,7 +154,7 @@ data:extend(
     {
         type = "fluid",
         name = "fr-solution-gas",
-        icon = "__factoricanrefinery__/graphics/icons/items/fr-solution-gas.png",
+        icon = "__factoricanindustry__/graphics/icons/items/fr-solution-gas.png",
         icon_size = 32,
         subgroup = "fluid",
         default_temperature = 25,
@@ -169,7 +169,7 @@ data:extend(
     {
         type = "fluid",
         name = "fr-natural-gas",
-        icon = "__factoricanrefinery__/graphics/icons/items/fr-natural-gas.png",
+        icon = "__factoricanindustry__/graphics/icons/items/fr-natural-gas.png",
         icon_size = 32,
         subgroup = "fluid",
         default_temperature = 25,
@@ -184,7 +184,7 @@ data:extend(
     {
         type = "fluid",
         name = "fr-natural-gas-liquid",
-        icon = "__factoricanrefinery__/graphics/icons/items/fr-natural-gas-liquid.png",
+        icon = "__factoricanindustry__/graphics/icons/items/fr-natural-gas-liquid.png",
         icon_size = 32,
         subgroup = "fluid",
         default_temperature = 25,
@@ -199,7 +199,7 @@ data:extend(
     {
         type = "fluid",
         name = "fr-combustion-fuel",
-        icon = "__factoricanrefinery__/graphics/icons/items/fr-combustion-fuel.png",
+        icon = "__factoricanindustry__/graphics/icons/items/fr-combustion-fuel.png",
         icon_size = 32,
         subgroup = "fluid",
         default_temperature = 25,
@@ -214,7 +214,7 @@ data:extend(
     {
         type = "item",
         name = "fr-metal-oxide-catalyst",
-        icon = "__factoricanrefinery__/graphics/icons/items/fr-metal-oxide-catalyst.png",
+        icon = "__factoricanindustry__/graphics/icons/items/fr-metal-oxide-catalyst.png",
         icon_size = 32,
         flags = {"goes-to-main-inventory"},
         subgroup = "intermediate-product",
