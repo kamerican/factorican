@@ -1,12 +1,11 @@
 data:extend(
 {
-    -- hydrogen sulfide
     {
         type = "fluid",
         name = "fr-hydrogen-sulfide",
         icon = "__factoricanindustry__/graphics/icons/items/fr-hydrogen-sulfide.png",
         icon_size = 32,
-        subgroup = "fluid",
+        subgroup = "factorican-sulfur",
         default_temperature = 25,
         heat_capacity = "0.1KJ",
         base_color = {r = 0.75, g = 0.65, b = 0.1},
@@ -15,13 +14,12 @@ data:extend(
         pressure_to_speed_ratio = 0.4,
         flow_to_energy_ratio = 0.59,
     },
-    -- sulfur dioxide
     {
         type = "fluid",
         name = "fr-sulfur-dioxide",
         icon = "__factoricanindustry__/graphics/icons/items/fr-sulfur-dioxide.png",
         icon_size = 32,
-        subgroup = "fluid",
+        subgroup = "factorican-sulfur",
         default_temperature = 25,
         heat_capacity = "0.1KJ",
         base_color = {r = 0.75, g = 0.65, b = 0.1},
@@ -30,13 +28,12 @@ data:extend(
         pressure_to_speed_ratio = 0.4,
         flow_to_energy_ratio = 0.59,
     },
-    -- sulfur trioxide
     {
         type = "fluid",
         name = "fr-sulfur-trioxide",
         icon = "__factoricanindustry__/graphics/icons/items/fr-sulfur-trioxide.png",
         icon_size = 32,
-        subgroup = "fluid",
+        subgroup = "factorican-sulfur",
         default_temperature = 25,
         heat_capacity = "0.1KJ",
         base_color = {r = 0.75, g = 0.65, b = 0.1},
@@ -45,13 +42,12 @@ data:extend(
         pressure_to_speed_ratio = 0.4,
         flow_to_energy_ratio = 0.59,
     },
-    -- polymer feed
     {
         type = "fluid",
         name = "fr-polymer-feed",
         icon = "__factoricanindustry__/graphics/icons/items/fr-polymer-feed.png",
         icon_size = 32,
-        subgroup = "fluid",
+        subgroup = "factorican-hydrocarbon",
         default_temperature = 25,
         heat_capacity = "0.1KJ",
         base_color = {r = 1, g = 1, b = 1},
@@ -60,13 +56,12 @@ data:extend(
         pressure_to_speed_ratio = 0.4,
         flow_to_energy_ratio = 0.59,
     },
-    -- crosslinker
     {
         type = "fluid",
         name = "fr-crosslinker",
         icon = "__factoricanindustry__/graphics/icons/items/fr-crosslinker.png",
         icon_size = 32,
-        subgroup = "fluid",
+        subgroup = "factorican-hydrocarbon",
         default_temperature = 25,
         heat_capacity = "0.1KJ",
         base_color = {r = 1, g = 1, b = 1},
@@ -75,13 +70,12 @@ data:extend(
         pressure_to_speed_ratio = 0.4,
         flow_to_energy_ratio = 0.59,
     },
-    -- dead oil
     {
         type = "fluid",
         name = "fr-dead-oil",
         icon = "__factoricanindustry__/graphics/icons/items/fr-dead-oil.png",
         icon_size = 32,
-        subgroup = "fluid",
+        subgroup = "factorican-hydrocarbon",
         default_temperature = 25,
         heat_capacity = "0.1KJ",
         base_color = {r = 0, g = 0, b = 0},
@@ -90,13 +84,12 @@ data:extend(
         pressure_to_speed_ratio = 0.4,
         flow_to_energy_ratio = 0.59,
     },
-    -- base oil
     {
         type = "fluid",
         name = "fr-base-oil",
         icon = "__factoricanindustry__/graphics/icons/items/fr-base-oil.png",
         icon_size = 32,
-        subgroup = "fluid",
+        subgroup = "factorican-hydrocarbon",
         default_temperature = 25,
         heat_capacity = "0.1KJ",
         base_color = {r = 0.27, g = 0.11, b = 0},
@@ -105,13 +98,12 @@ data:extend(
         pressure_to_speed_ratio = 0.4,
         flow_to_energy_ratio = 0.59,
     },
-    -- fuel oil
     {
         type = "fluid",
         name = "fr-fuel-oil",
         icon = "__factoricanindustry__/graphics/icons/items/fr-fuel-oil.png",
         icon_size = 32,
-        subgroup = "fluid",
+        subgroup = "factorican-hydrocarbon",
         default_temperature = 25,
         heat_capacity = "0.1KJ",
         base_color = {r = 0.86, g = 0.7, b = 0},
@@ -120,13 +112,12 @@ data:extend(
         pressure_to_speed_ratio = 0.4,
         flow_to_energy_ratio = 0.59,
     },
-    -- naphtha
     {
         type = "fluid",
         name = "fr-naphtha",
         icon = "__factoricanindustry__/graphics/icons/items/fr-naphtha.png",
         icon_size = 32,
-        subgroup = "fluid",
+        subgroup = "factorican-hydrocarbon",
         default_temperature = 25,
         heat_capacity = "0.1KJ",
         base_color = {r = 0.65, g = 0.3, b = 0.13},
@@ -135,13 +126,12 @@ data:extend(
         pressure_to_speed_ratio = 0.4,
         flow_to_energy_ratio = 0.59,
     },
-    -- residual oil
     {
         type = "fluid",
         name = "fr-residual-oil",
         icon = "__factoricanindustry__/graphics/icons/items/fr-residual-oil.png",
         icon_size = 32,
-        subgroup = "fluid",
+        subgroup = "factorican-hydrocarbon",
         default_temperature = 25,
         heat_capacity = "0.1KJ",
         base_color = {r = 0.5, g = 0, b = 0.5},
@@ -150,13 +140,12 @@ data:extend(
         pressure_to_speed_ratio = 0.4,
         flow_to_energy_ratio = 0.59,
     },
-    -- solution gas
     {
         type = "fluid",
         name = "fr-solution-gas",
         icon = "__factoricanindustry__/graphics/icons/items/fr-solution-gas.png",
         icon_size = 32,
-        subgroup = "fluid",
+        subgroup = "factorican-hydrocarbon",
         default_temperature = 25,
         heat_capacity = "0.1KJ",
         base_color = {r = 0.35, g = 0.44, b = 0.29},
@@ -165,13 +154,12 @@ data:extend(
         pressure_to_speed_ratio = 0.4,
         flow_to_energy_ratio = 0.59,
     },
-    -- natural gas
     {
         type = "fluid",
         name = "fr-natural-gas",
         icon = "__factoricanindustry__/graphics/icons/items/fr-natural-gas.png",
         icon_size = 32,
-        subgroup = "fluid",
+        subgroup = "factorican-hydrocarbon",
         default_temperature = 25,
         heat_capacity = "0.1KJ",
         base_color = {r = 0.35, g = 0.44, b = 0.29},
@@ -180,13 +168,12 @@ data:extend(
         pressure_to_speed_ratio = 0.4,
         flow_to_energy_ratio = 0.59,
     },
-    -- natural gas liquids
     {
         type = "fluid",
         name = "fr-natural-gas-liquid",
         icon = "__factoricanindustry__/graphics/icons/items/fr-natural-gas-liquid.png",
         icon_size = 32,
-        subgroup = "fluid",
+        subgroup = "factorican-hydrocarbon",
         default_temperature = 25,
         heat_capacity = "0.1KJ",
         base_color = {r = 0.35, g = 0.44, b = 0.29},
@@ -195,13 +182,12 @@ data:extend(
         pressure_to_speed_ratio = 0.4,
         flow_to_energy_ratio = 0.59,
     },
-    -- combustion fuel
     {
         type = "fluid",
         name = "fr-combustion-fuel",
         icon = "__factoricanindustry__/graphics/icons/items/fr-combustion-fuel.png",
         icon_size = 32,
-        subgroup = "fluid",
+        subgroup = "factorican-hydrocarbon",
         default_temperature = 25,
         heat_capacity = "0.1KJ",
         base_color = {r = 0.96, g = 0.44, b = 0.13},
@@ -210,32 +196,14 @@ data:extend(
         pressure_to_speed_ratio = 0.4,
         flow_to_energy_ratio = 0.59,
     },
-    -- metal oxide catalyst
     {
         type = "item",
         name = "fr-metal-oxide-catalyst",
         icon = "__factoricanindustry__/graphics/icons/items/fr-metal-oxide-catalyst.png",
         icon_size = 32,
         flags = {"goes-to-main-inventory"},
-        subgroup = "intermediate-product",
-        order = "f",
+        subgroup = "factorican-hydrocarbon",
+        order = "z",
         stack_size = 100
-    },
-    -- combustion turbine
-    {
-        type = "item",
-        name = "fr-combustion-turbine",
-        icons = {
-            {
-                icon = "__base__/graphics/icons/steam-turbine.png",
-                tint = {r=0.88, g=0.88, b=0.86, a=0.3}
-            }
-        },
-        icon_size = 32,
-        flags = {"goes-to-main-inventory"},
-        subgroup = "energy",
-        order = "f",
-        stack_size = 10,
-        place_result = "fr-combustion-turbine"
     },
 })

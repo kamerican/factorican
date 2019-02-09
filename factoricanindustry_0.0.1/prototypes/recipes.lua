@@ -12,8 +12,8 @@ data:extend(
     {
 		type = "recipe",
 		name = "fr-1",
-		category = "chemistry",
-		subgroup = "fluid-recipes",
+		category = "factorican-refining-chemistry",
+		subgroup = "factorican-hydrocarbon",
 		energy_required = 5,
 		enabled = true,
 		ingredients = {
@@ -30,8 +30,8 @@ data:extend(
     {
 		type = "recipe",
 		name = "fr-2",
-		category = "oil-processing",
-		subgroup = "fluid-recipes",
+		category = "factorican-refining-distillation",
+		subgroup = "factorican-hydrocarbon",
 		energy_required = 5,
 		enabled = true,
 		ingredients = {
@@ -49,8 +49,8 @@ data:extend(
     {
 		type = "recipe",
 		name = "fr-3",
-		category = "chemistry",
-		subgroup = "fluid-recipes",
+		category = "factorican-refining-chemistry",
+		subgroup = "factorican-hydrocarbon",
 		energy_required = 3,
 		enabled = true,
 		ingredients = {
@@ -66,8 +66,8 @@ data:extend(
     {
 		type = "recipe",
 		name = "fr-4",
-		category = "chemistry",
-		subgroup = "fluid-recipes",
+		category = "factorican-refining-chemistry",
+		subgroup = "factorican-hydrocarbon",
 		energy_required = 5,
 		enabled = true,
 		ingredients = {
@@ -85,8 +85,8 @@ data:extend(
     {
 		type = "recipe",
 		name = "fr-5",
-		category = "chemistry",
-		subgroup = "fluid-recipes",
+		category = "factorican-refining-chemistry",
+		subgroup = "factorican-hydrocarbon",
 		energy_required = 3,
 		enabled = true,
 		ingredients = {
@@ -102,8 +102,8 @@ data:extend(
     {
 		type = "recipe",
 		name = "fr-6",
-		category = "chemistry",
-		subgroup = "fluid-recipes",
+		category = "factorican-refining-chemistry",
+		subgroup = "factorican-hydrocarbon",
 		energy_required = 5,
 		enabled = true,
 		ingredients = {
@@ -120,8 +120,8 @@ data:extend(
     {
 		type = "recipe",
 		name = "fr-7",
-		category = "chemistry",
-		subgroup = "fluid-recipes",
+		category = "factorican-refining-chemistry",
+		subgroup = "factorican-hydrocarbon",
 		energy_required = 5,
 		enabled = true,
 		ingredients = {
@@ -139,8 +139,8 @@ data:extend(
     {
 		type = "recipe",
 		name = "fr-8",
-		category = "chemistry",
-		subgroup = "fluid-recipes",
+		category = "factorican-refining-chemistry",
+		subgroup = "factorican-hydrocarbon",
 		energy_required = 5,
 		enabled = true,
 		ingredients = {
@@ -157,8 +157,8 @@ data:extend(
     {
 		type = "recipe",
 		name = "fr-9",
-		category = "chemistry",
-		subgroup = "fluid-recipes",
+		category = "factorican-refining-chemistry",
+		subgroup = "factorican-hydrocarbon",
 		energy_required = 5,
 		enabled = true,
 		ingredients = {
@@ -175,8 +175,8 @@ data:extend(
     {
 		type = "recipe",
 		name = "fr-10",
-		category = "chemistry",
-		subgroup = "fluid-recipes",
+		category = "factorican-refining-chemistry",
+		subgroup = "factorican-hydrocarbon",
 		energy_required = 1,
 		enabled = true,
 		ingredients = {
@@ -193,8 +193,8 @@ data:extend(
     {
 		type = "recipe",
 		name = "fr-11",
-		category = "oil-processing",
-		subgroup = "fluid-recipes",
+		category = "factorican-refining-distillation",
+		subgroup = "factorican-hydrocarbon",
 		energy_required = 5,
 		enabled = true,
 		ingredients = {
@@ -212,8 +212,8 @@ data:extend(
     {
 		type = "recipe",
 		name = "fr-12",
-		category = "chemistry",
-		subgroup = "fluid-recipes",
+		category = "factorican-refining-chemistry",
+		subgroup = "factorican-hydrocarbon",
 		energy_required = 3,
 		enabled = true,
 		ingredients = {
@@ -231,8 +231,8 @@ data:extend(
     {
 		type = "recipe",
 		name = "fr-13",
-		category = "chemistry",
-		subgroup = "fluid-recipes",
+		category = "factorican-refining-chemistry",
+		subgroup = "factorican-sulfur",
 		energy_required = 3,
 		enabled = true,
 		ingredients = {
@@ -248,8 +248,8 @@ data:extend(
     {
 		type = "recipe",
 		name = "fr-14",
-		category = "chemistry",
-		subgroup = "fluid-recipes",
+		category = "factorican-refining-chemistry",
+		subgroup = "factorican-sulfur",
 		energy_required = 3,
 		enabled = true,
 		ingredients = {
@@ -265,8 +265,8 @@ data:extend(
     {
 		type = "recipe",
 		name = "fr-15",
-		category = "chemistry",
-		subgroup = "fluid-recipes",
+		category = "factorican-refining-chemistry",
+		subgroup = "factorican-sulfur",
 		energy_required = 3,
 		enabled = true,
 		ingredients = {
@@ -284,8 +284,8 @@ data:extend(
     {
 		type = "recipe",
 		name = "fr-16",
-		category = "chemistry",
-		subgroup = "fluid-recipes",
+		category = "factorican-refining-chemistry",
+		subgroup = "factorican-sulfur",
 		energy_required = 3,
 		enabled = true,
 		ingredients = {
@@ -302,8 +302,8 @@ data:extend(
     {
 		type = "recipe",
 		name = "fr-17",
-		category = "chemistry",
-		subgroup = "fluid-recipes",
+		category = "factorican-refining-chemistry",
+		subgroup = "factorican-sulfur",
 		energy_required = 3,
 		enabled = true,
 		ingredients = {
@@ -320,8 +320,8 @@ data:extend(
     {
 		type = "recipe",
 		name = "fr-18",
-		category = "chemistry",
-		subgroup = "fluid-recipes",
+		category = "factorican-refining-chemistry",
+		subgroup = "factorican-hydrocarbon",
 		energy_required = 3,
 		enabled = true,
 		ingredients = {
@@ -337,8 +337,8 @@ data:extend(
     {
 		type = "recipe",
 		name = "fr-19",
-		category = "chemistry",
-		subgroup = "fluid-recipes",
+		category = "factorican-refining-chemistry",
+		subgroup = "factorican-hydrocarbon",
 		energy_required = 3,
 		enabled = true,
 		ingredients = {
@@ -356,32 +356,7 @@ data:extend(
 		type = "recipe",
 		name = "fr-20",
 		category = "crafting",
-		subgroup = "energy",
-		energy_required = 5,
-		enabled = true,
-		ingredients = {
-			{type="item", name="steel-plate", amount=20},
-			{type="item", name="iron-gear-wheel", amount=20},
-			{type="item", name="electronic-circuit", amount=20},
-			{type="item", name="pipe", amount=20},
-		},
-		results = {
-			{type="item", name="fr-combustion-turbine", amount=1},
-        },
-        icons = {
-            {
-                icon = "__base__/graphics/icons/steam-turbine.png",
-                tint = {r=0.88, g=0.88, b=0.86, a=0.3}
-            }
-        },
-		icon_size = 32,
-		order = "z",
-    },
-    {
-		type = "recipe",
-		name = "fr-21",
-		category = "crafting",
-		subgroup = "intermediate-product",
+		subgroup = "factorican-hydrocarbon",
 		energy_required = 1,
 		enabled = true,
 		ingredients = {
