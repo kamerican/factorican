@@ -1,4 +1,8 @@
 require("prototypes.entities")
 require("prototypes.items")
 require("prototypes.recipes")
+require("prototypes.recipecategories")
 -- require("prototypes.technology")
+require("prototypes.combustionturbine")
+require("prototypes.hydrocarbonrefinery")
+require("prototypes.metallurgicsmelter")
