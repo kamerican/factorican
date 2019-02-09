@@ -1,0 +1,112 @@
+data:extend(
+{
+    {
+		type = "recipe",
+		name = "fs-1",
+		category = "factorican-smelting",
+		subgroup = "factorican-iron",
+		energy_required = 5,
+		enabled = true,
+		ingredients = {
+			{type="item", name="iron-ore", amount=20},
+			{type="fluid", name="fs-reduction-gas", amount=100},
+		},
+		results = {
+			{type="item", name="fs-reduced-iron-ore", amount=20},
+		},
+		icon = "__factoricanindustry__/graphics/icons/recipes/.png",
+		icon_size = 32,
+		order = "z",
+    },
+    {
+		type = "recipe",
+		name = "fs-2",
+		category = "factorican-smelting",
+		subgroup = "factorican-iron",
+		energy_required = 5,
+		enabled = true,
+		ingredients = {
+			{type="item", name="fs-reduced-iron-ore", amount=20},
+			{type="item", name="coal", amount=2},
+			{type="item", name="fs-flux-rock", amount=2},
+		},
+		results = {
+			{type="fluid", name="fs-molten-iron", amount=200},
+			{type="fluid", name="fs-reduction-gas", amount=100},
+			{type="item", name="fs-slag", amount=2},
+		},
+		icon = "__factoricanindustry__/graphics/icons/recipes/.png",
+		icon_size = 32,
+		order = "z",
+    },
+    {
+		type = "recipe",
+		name = "fs-3",
+		category = "factorican-smelting",
+		subgroup = "factorican-iron",
+		energy_required = 5,
+		enabled = true,
+		ingredients = {
+			{type="fluid", name="fs-molten-iron", amount=200},
+		},
+		results = {
+			{type="item", name="iron-plate", amount=25},
+		},
+		icon = "__factoricanindustry__/graphics/icons/recipes/.png",
+		icon_size = 32,
+		order = "z",
+    },
+    {
+		type = "recipe",
+		name = "fs-4",
+		category = "factorican-smelting",
+		subgroup = "factorican-iron",
+		energy_required = 5,
+		enabled = true,
+		ingredients = {
+			{type="fluid", name="fs-molten-iron", amount=200},
+			{type="item", name="fs-flux-rock", amount=2},
+		},
+		results = {
+			{type="fluid", name="fs-molten-steel", amount=200},
+			{type="item", name="fs-slag", amount=2},
+		},
+		icon = "__factoricanindustry__/graphics/icons/recipes/.png",
+		icon_size = 32,
+		order = "z",
+    },
+    {
+		type = "recipe",
+		name = "fs-5",
+		category = "factorican-smelting",
+		subgroup = "factorican-iron",
+		energy_required = 5,
+		enabled = true,
+		ingredients = {
+			{type="fluid", name="fs-molten-steel", amount=200},
+		},
+		results = {
+			{type="item", name="steel-plate", amount=5},
+		},
+		icon = "__factoricanindustry__/graphics/icons/recipes/.png",
+		icon_size = 32,
+		order = "z",
+    },
+    {
+		type = "recipe",
+		name = "fs-6",
+		category = "factorican-smelting",
+		subgroup = "factorican-iron",
+		energy_required = 3,
+		enabled = true,
+		ingredients = {
+			{type="item", name="coal", amount=1},
+		},
+		results = {
+			{type="fluid", name="fs-reduction-gas", amount=50},
+		},
+		icon = "__factoricanindustry__/graphics/icons/recipes/.png",
+		icon_size = 32,
+		order = "z",
+    },
+})

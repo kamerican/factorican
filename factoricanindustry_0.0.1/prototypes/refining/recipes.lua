@@ -1,12 +1,3 @@
-
-
-
-
--- Manufacturing
-
--- Smelting
-
--- Refining
 data:extend(
 {
     {
