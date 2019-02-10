@@ -1,22 +1,22 @@
 data:extend(
 {
     -- Recipe categories
-    {
-        type = "recipe-category",
-        name = "factorican-manufacturing",
-    },
+    -- {
+    --     type = "recipe-category",
+    --     name = "factorican-manufacturing",
+    -- },
     {
         type = "recipe-category",
         name = "factorican-smelting",
     },
-    {
-        type = "recipe-category",
-        name = "factorican-refining-distillation",
-    },
-    {
-        type = "recipe-category",
-        name = "factorican-refining-chemistry",
-    },
+    -- {
+    --     type = "recipe-category",
+    --     name = "factorican-refining-distillation",
+    -- },
+    -- {
+    --     type = "recipe-category",
+    --     name = "factorican-refining-chemistry",
+    -- },
     -- Item group
     {
         type = "item-group",

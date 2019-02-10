@@ -3,7 +3,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fr-1",
-		category = "factorican-refining-chemistry",
+		category = "chemistry",
 		subgroup = "factorican-hydrocarbon",
 		energy_required = 5,
 		enabled = true,
@@ -21,7 +21,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fr-2",
-		category = "factorican-refining-distillation",
+		category = "oil-processing",
 		subgroup = "factorican-hydrocarbon",
 		energy_required = 5,
 		enabled = true,
@@ -40,7 +40,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fr-3",
-		category = "factorican-refining-chemistry",
+		category = "chemistry",
 		subgroup = "factorican-hydrocarbon",
 		energy_required = 3,
 		enabled = true,
@@ -57,7 +57,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fr-4",
-		category = "factorican-refining-chemistry",
+		category = "chemistry",
 		subgroup = "factorican-hydrocarbon",
 		energy_required = 5,
 		enabled = true,
@@ -76,7 +76,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fr-5",
-		category = "factorican-refining-chemistry",
+		category = "chemistry",
 		subgroup = "factorican-hydrocarbon",
 		energy_required = 3,
 		enabled = true,
@@ -93,7 +93,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fr-6",
-		category = "factorican-refining-chemistry",
+		category = "chemistry",
 		subgroup = "factorican-hydrocarbon",
 		energy_required = 5,
 		enabled = true,
@@ -111,7 +111,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fr-7",
-		category = "factorican-refining-chemistry",
+		category = "chemistry",
 		subgroup = "factorican-hydrocarbon",
 		energy_required = 5,
 		enabled = true,
@@ -130,7 +130,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fr-8",
-		category = "factorican-refining-chemistry",
+		category = "chemistry",
 		subgroup = "factorican-hydrocarbon",
 		energy_required = 5,
 		enabled = true,
@@ -148,7 +148,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fr-9",
-		category = "factorican-refining-chemistry",
+		category = "chemistry",
 		subgroup = "factorican-hydrocarbon",
 		energy_required = 5,
 		enabled = true,
@@ -166,7 +166,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fr-10",
-		category = "factorican-refining-chemistry",
+		category = "chemistry",
 		subgroup = "factorican-hydrocarbon",
 		energy_required = 1,
 		enabled = true,
@@ -184,7 +184,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fr-11",
-		category = "factorican-refining-distillation",
+		category = "oil-processing",
 		subgroup = "factorican-hydrocarbon",
 		energy_required = 5,
 		enabled = true,
@@ -203,7 +203,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fr-12",
-		category = "factorican-refining-chemistry",
+		category = "chemistry",
 		subgroup = "factorican-hydrocarbon",
 		energy_required = 3,
 		enabled = true,
@@ -222,7 +222,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fr-13",
-		category = "factorican-refining-chemistry",
+		category = "chemistry",
 		subgroup = "factorican-sulfur",
 		energy_required = 3,
 		enabled = true,
@@ -239,7 +239,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fr-14",
-		category = "factorican-refining-chemistry",
+		category = "chemistry",
 		subgroup = "factorican-sulfur",
 		energy_required = 3,
 		enabled = true,
@@ -256,7 +256,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fr-15",
-		category = "factorican-refining-chemistry",
+		category = "chemistry",
 		subgroup = "factorican-sulfur",
 		energy_required = 3,
 		enabled = true,
@@ -275,7 +275,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fr-16",
-		category = "factorican-refining-chemistry",
+		category = "chemistry",
 		subgroup = "factorican-sulfur",
 		energy_required = 3,
 		enabled = true,
@@ -293,7 +293,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fr-17",
-		category = "factorican-refining-chemistry",
+		category = "chemistry",
 		subgroup = "factorican-sulfur",
 		energy_required = 3,
 		enabled = true,
@@ -311,7 +311,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fr-18",
-		category = "factorican-refining-chemistry",
+		category = "chemistry",
 		subgroup = "factorican-hydrocarbon",
 		energy_required = 3,
 		enabled = true,
@@ -328,7 +328,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fr-19",
-		category = "factorican-refining-chemistry",
+		category = "chemistry",
 		subgroup = "factorican-hydrocarbon",
 		energy_required = 3,
 		enabled = true,
