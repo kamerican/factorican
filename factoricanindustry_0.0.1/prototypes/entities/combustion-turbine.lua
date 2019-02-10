@@ -15,7 +15,7 @@ data:extend({
         icon_size = 32,
         flags = {"goes-to-main-inventory"},
         subgroup = "factorican-building",
-        order = "f",
+        order = "b",
         stack_size = 10,
         place_result = "fr-combustion-turbine"
     },
@@ -37,6 +37,6 @@ data:extend({
         },
         icon = "__base__/graphics/icons/steam-turbine.png",
 		icon_size = 32,
-		order = "z",
+		order = "b",
     },
 })

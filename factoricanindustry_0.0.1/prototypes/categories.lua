@@ -22,7 +22,7 @@ data:extend(
         type = "item-group",
         name = "factorican",
         -- need to change icon later
-        icon = "__base__/graphics/item-group/intermediate-products.png",
+        icon = "__factoricanindustry__/graphics/icons/factorican-industries.png",
         icon_size = 64,
         order = "z",        
     },

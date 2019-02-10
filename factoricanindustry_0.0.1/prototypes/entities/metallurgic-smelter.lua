@@ -1,24 +1,24 @@
 local metallurgic_smelter = table.deepcopy(data.raw["assembling-machine"]["oil-refinery"])
-metallurgic_smelter.name = "fr-metallurgic-smelter"
+metallurgic_smelter.name = "fs-metallurgic-smelter"
 metallurgic_smelter.crafting_categories = {"factorican-smelting"}
-metallurgic_smelter.minable.result = "fr-metallurgic-smelter"
+metallurgic_smelter.minable.result = "fs-metallurgic-smelter"
 
 data:extend({
     metallurgic_smelter,
     {
         type = "item",
-        name = "fr-metallurgic-smelter",
+        name = "fs-metallurgic-smelter",
         icon = "__base__/graphics/icons/oil-refinery.png",
         icon_size = 32,
         flags = {"goes-to-main-inventory"},
         subgroup = "factorican-building",
-        order = "f",
+        order = "a",
         stack_size = 10,
-        place_result = "fr-metallurgic-smelter"
+        place_result = "fs-metallurgic-smelter"
     },
     {
 		type = "recipe",
-		name = "fr-metallurgic-smelter",
+		name = "fs-metallurgic-smelter",
 		category = "crafting",
 		subgroup = "factorican-building",
 		energy_required = 5,
@@ -31,10 +31,10 @@ data:extend({
 			{type="item", name="stone-brick", amount=20},
 		},
 		results = {
-			{type="item", name="fr-metallurgic-smelter", amount=1},
+			{type="item", name="fs-metallurgic-smelter", amount=1},
         },
         icon = "__base__/graphics/icons/oil-refinery.png",
 		icon_size = 32,
-		order = "z",
+		order = "a",
     },
 })
