@@ -44,10 +44,9 @@ data:extend(
 		enabled = true,
 		ingredients = {
 			{type="item", name="copper-plate", amount=1},
-			{type="item", name="fs-flux-rock", amount=1},
 		},
 		results = {
-			{type="item", name="fm-solder", amount=15},
+			{type="item", name="fm-solder", amount=5},
 		},
 		icon = "__factoricanindustry__/graphics/icons/items/fm-solder.png",
 		icon_size = 32,
@@ -65,7 +64,7 @@ data:extend(
 			{type="item", name="coal", amount=1},
 		},
 		results = {
-			{type="item", name="fm-resistor", amount=15},
+			{type="item", name="fm-resistor", amount=5},
 		},
 		icon = "__factoricanindustry__/graphics/icons/items/fm-resistor.png",
 		icon_size = 32,
@@ -83,7 +82,7 @@ data:extend(
 			{type="item", name="copper-wire", amount=4},
 		},
 		results = {
-			{type="item", name="fm-inductor", amount=15},
+			{type="item", name="fm-inductor", amount=5},
 		},
 		icon = "__factoricanindustry__/graphics/icons/items/fm-inductor.png",
 		icon_size = 32,
@@ -101,7 +100,7 @@ data:extend(
 			{type="item", name="copper-wire", amount=4},
 		},
 		results = {
-			{type="item", name="fm-capacitor", amount=15},
+			{type="item", name="fm-capacitor", amount=5},
 		},
 		icon = "__factoricanindustry__/graphics/icons/items/fm-capacitor.png",
 		icon_size = 32,
@@ -119,7 +118,7 @@ data:extend(
 			{type="item", name="copper-wire", amount=4},
 		},
 		results = {
-			{type="item", name="fm-transistor", amount=15},
+			{type="item", name="fm-transistor", amount=5},
 		},
 		icon = "__factoricanindustry__/graphics/icons/items/fm-transistor.png",
 		icon_size = 32,
@@ -139,7 +138,7 @@ data:extend(
 			{type="item", name="copper-wire", amount=4},
 		},
 		results = {
-			{type="item", name="fm-integrated-circuit", amount=15},
+			{type="item", name="fm-integrated-circuit", amount=5},
 		},
 		icon = "__factoricanindustry__/graphics/icons/items/fm-integrated-circuit.png",
 		icon_size = 32,
@@ -318,7 +317,7 @@ data:extend(
 		enabled = true,
 		ingredients = {
 			{type="item", name="fm-advanced-circuit-stage-4", amount=1},
-			{type="item", name="fm-solder", amount=5},
+			{type="item", name="fm-solder", amount=10},
 		},
 		results = {
 			{type="item", name="fm-advanced-circuit-panel", amount=1},
