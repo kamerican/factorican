@@ -1,6 +1,6 @@
 local combustion_turbine = table.deepcopy(data.raw.generator["steam-turbine"])
 combustion_turbine.name = "fr-combustion-turbine"
-combustion_turbine.icon = "__base__/graphics/icons/steam-turbine.png"
+combustion_turbine.icon = "__factoricanindustry__/graphics/icons/fr-combustion-turbine.png"
 combustion_turbine.fluid_box.filter = "fr-combustion-fuel"
 combustion_turbine.fluid_box.minimum_temperature = 1000
 combustion_turbine.max_power_output = "3MW"
@@ -11,7 +11,7 @@ data:extend({
     {
         type = "item",
         name = "fr-combustion-turbine",
-        icon = "__base__/graphics/icons/steam-turbine.png",
+        icon = "__factoricanindustry__/graphics/icons/fr-combustion-turbine.png",
         icon_size = 32,
         flags = {"goes-to-main-inventory"},
         subgroup = "factorican-building",
@@ -35,7 +35,7 @@ data:extend({
 		results = {
 			{type="item", name="fr-combustion-turbine", amount=1},
         },
-        icon = "__base__/graphics/icons/steam-turbine.png",
+        icon = "__factoricanindustry__/graphics/icons/fr-combustion-turbine.png",
 		icon_size = 32,
 		order = "b",
     },

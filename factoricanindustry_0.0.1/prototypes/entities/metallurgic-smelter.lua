@@ -2,13 +2,14 @@ local metallurgic_smelter = table.deepcopy(data.raw["assembling-machine"]["oil-r
 metallurgic_smelter.name = "fs-metallurgic-smelter"
 metallurgic_smelter.crafting_categories = {"factorican-smelting"}
 metallurgic_smelter.minable.result = "fs-metallurgic-smelter"
+metallurgic_smelter.icon = "__factoricanindustry__/graphics/icons/fs-metallurgic-smelter.png"
 
 data:extend({
     metallurgic_smelter,
     {
         type = "item",
         name = "fs-metallurgic-smelter",
-        icon = "__base__/graphics/icons/oil-refinery.png",
+        icon = "__factoricanindustry__/graphics/icons/fs-metallurgic-smelter.png",
         icon_size = 32,
         flags = {"goes-to-main-inventory"},
         subgroup = "factorican-building",
@@ -33,7 +34,7 @@ data:extend({
 		results = {
 			{type="item", name="fs-metallurgic-smelter", amount=1},
         },
-        icon = "__base__/graphics/icons/oil-refinery.png",
+        icon = "__factoricanindustry__/graphics/icons/fs-metallurgic-smelter.png",
 		icon_size = 32,
 		order = "a",
     },

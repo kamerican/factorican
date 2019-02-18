@@ -1,27 +1,22 @@
 data:extend(
 {
     -- Recipe categories
-    -- {
-    --     type = "recipe-category",
-    --     name = "factorican-manufacturing",
-    -- },
     {
         type = "recipe-category",
         name = "factorican-smelting",
     },
-    -- {
-    --     type = "recipe-category",
-    --     name = "factorican-refining-distillation",
-    -- },
-    -- {
-    --     type = "recipe-category",
-    --     name = "factorican-refining-chemistry",
-    -- },
+    {
+        type = "recipe-category",
+        name = "factorican-chip-shooting",
+    },
+    {
+        type = "recipe-category",
+        name = "factorican-electronics-fabrication",
+    },
     -- Item group
     {
         type = "item-group",
         name = "factorican",
-        -- need to change icon later
         icon = "__factoricanindustry__/graphics/icons/factorican-industries.png",
         icon_size = 64,
         order = "z",        

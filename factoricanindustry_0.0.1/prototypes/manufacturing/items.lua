@@ -251,14 +251,18 @@ data:extend(
         stack_size = 100
     },
     {
-        type = "item",
+        type = "fluid",
         name = "fm-molten-silicon",
         icon = "__factoricanindustry__/graphics/icons/items/fm-molten-silicon.png",
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
         subgroup = "factorican-circuit",
-        order = "z",
-        stack_size = 100
+        default_temperature = 1000,
+        heat_capacity = "0.1KJ",
+        base_color = {r = 0, g = 0, b = 0},
+        flow_color = {r = 0, g = 0, b = 0},
+        max_temperature = 1000,
+        pressure_to_speed_ratio = 0.4,
+        flow_to_energy_ratio = 0.59,
     },
     {
         type = "item",

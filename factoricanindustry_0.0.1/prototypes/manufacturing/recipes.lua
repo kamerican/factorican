@@ -20,7 +20,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fm-2",
-		category = "advanced-crafting",
+		category = "factorican-electronics-fabrication",
 		subgroup = "factorican-circuit",
 		energy_required = 1,
 		enabled = true,
@@ -38,7 +38,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fm-3",
-		category = "advanced-crafting",
+		category = "factorican-electronics-fabrication",
 		subgroup = "factorican-circuit",
 		energy_required = 1,
 		enabled = true,
@@ -55,7 +55,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fm-4",
-		category = "advanced-crafting",
+		category = "factorican-electronics-fabrication",
 		subgroup = "factorican-circuit",
 		energy_required = 1,
 		enabled = true,
@@ -73,7 +73,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fm-5",
-		category = "advanced-crafting",
+		category = "factorican-electronics-fabrication",
 		subgroup = "factorican-circuit",
 		energy_required = 1,
 		enabled = true,
@@ -91,7 +91,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fm-6",
-		category = "advanced-crafting",
+		category = "factorican-electronics-fabrication",
 		subgroup = "factorican-circuit",
 		energy_required = 1,
 		enabled = true,
@@ -109,7 +109,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fm-7",
-		category = "advanced-crafting",
+		category = "factorican-electronics-fabrication",
 		subgroup = "factorican-circuit",
 		energy_required = 1,
 		enabled = true,
@@ -127,7 +127,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fm-8",
-		category = "crafting-with-fluid",
+		category = "factorican-electronics-fabrication",
 		subgroup = "factorican-circuit",
 		energy_required = 1,
 		enabled = true,
@@ -147,7 +147,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fm-9",
-		category = "crafting-with-fluid",
+		category = "factorican-electronics-fabrication",
 		subgroup = "factorican-circuit",
 		energy_required = 1,
 		enabled = true,
@@ -166,7 +166,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fm-10",
-		category = "advanced-crafting",
+		category = "factorican-chip-shooting",
 		subgroup = "factorican-circuit",
 		energy_required = 1,
 		enabled = true,
@@ -184,7 +184,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fm-11",
-		category = "advanced-crafting",
+		category = "factorican-chip-shooting",
 		subgroup = "factorican-circuit",
 		energy_required = 1,
 		enabled = true,
@@ -202,7 +202,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fm-12",
-		category = "advanced-crafting",
+		category = "factorican-chip-shooting",
 		subgroup = "factorican-circuit",
 		energy_required = 1,
 		enabled = true,
@@ -220,7 +220,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fm-13",
-		category = "crafting-with-fluid",
+		category = "factorican-electronics-fabrication",
 		subgroup = "factorican-circuit",
 		energy_required = 1,
 		enabled = true,
@@ -239,7 +239,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fm-14",
-		category = "advanced-crafting",
+		category = "factorican-chip-shooting",
 		subgroup = "factorican-circuit",
 		energy_required = 1,
 		enabled = true,
@@ -257,7 +257,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fm-15",
-		category = "advanced-crafting",
+		category = "factorican-chip-shooting",
 		subgroup = "factorican-circuit",
 		energy_required = 1,
 		enabled = true,
@@ -275,7 +275,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fm-16",
-		category = "advanced-crafting",
+		category = "factorican-chip-shooting",
 		subgroup = "factorican-circuit",
 		energy_required = 1,
 		enabled = true,
@@ -293,7 +293,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fm-17",
-		category = "advanced-crafting",
+		category = "factorican-chip-shooting",
 		subgroup = "factorican-circuit",
 		energy_required = 1,
 		enabled = true,
@@ -311,7 +311,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fm-18",
-		category = "advanced-crafting",
+		category = "factorican-chip-shooting",
 		subgroup = "factorican-circuit",
 		energy_required = 1,
 		enabled = true,
@@ -329,7 +329,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fm-19",
-		category = "crafting-with-fluid",
+		category = "factorican-electronics-fabrication",
 		subgroup = "factorican-circuit",
 		energy_required = 1,
 		enabled = true,
@@ -348,7 +348,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fm-20",
-		category = "advanced-crafting",
+		category = "factorican-chip-shooting",
 		subgroup = "factorican-circuit",
 		energy_required = 1,
 		enabled = true,
@@ -366,7 +366,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fm-21",
-		category = "advanced-crafting",
+		category = "factorican-chip-shooting",
 		subgroup = "factorican-circuit",
 		energy_required = 1,
 		enabled = true,
@@ -384,7 +384,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fm-22",
-		category = "advanced-crafting",
+		category = "factorican-chip-shooting",
 		subgroup = "factorican-circuit",
 		energy_required = 1,
 		enabled = true,
@@ -402,7 +402,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fm-23",
-		category = "advanced-crafting",
+		category = "factorican-chip-shooting",
 		subgroup = "factorican-circuit",
 		energy_required = 1,
 		enabled = true,
@@ -420,7 +420,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fm-24",
-		category = "advanced-crafting",
+		category = "factorican-chip-shooting",
 		subgroup = "factorican-circuit",
 		energy_required = 1,
 		enabled = true,
@@ -438,7 +438,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fm-25",
-		category = "advanced-crafting",
+		category = "factorican-chip-shooting",
 		subgroup = "factorican-circuit",
 		energy_required = 1,
 		enabled = true,
@@ -456,7 +456,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fm-26",
-		category = "advanced-crafting",
+		category = "factorican-electronics-fabrication",
 		subgroup = "factorican-circuit",
 		energy_required = 1,
 		enabled = true,
@@ -473,7 +473,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fm-27",
-		category = "advanced-crafting",
+		category = "factorican-electronics-fabrication",
 		subgroup = "factorican-circuit",
 		energy_required = 1,
 		enabled = true,
@@ -490,7 +490,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fm-28",
-		category = "advanced-crafting",
+		category = "factorican-electronics-fabrication",
 		subgroup = "factorican-circuit",
 		energy_required = 1,
 		enabled = true,
@@ -542,7 +542,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fm-31",
-		category = "advanced-crafting",
+		category = "factorican-electronics-fabrication",
 		subgroup = "factorican-circuit",
 		energy_required = 1,
 		enabled = true,
