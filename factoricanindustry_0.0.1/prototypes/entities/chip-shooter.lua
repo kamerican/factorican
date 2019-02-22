@@ -8,6 +8,8 @@ chip_shooter.working_sound.sound = {
         filename = "__factoricanindustry__/sound/fm-chip-shooter.ogg",
     },
 }
+chip_shooter.crafting_speed = 1
+
 data:extend({
     chip_shooter,
     {

@@ -64,4 +64,22 @@ data:extend(
         group = "factorican",
         order = "g",
     },
+    {
+        type = "item-subgroup",
+        name = "factorican-green",
+        group = "factorican",
+        order = "g",
+    },
+    {
+        type = "item-subgroup",
+        name = "factorican-red",
+        group = "factorican",
+        order = "g",
+    },
+    {
+        type = "item-subgroup",
+        name = "factorican-blue",
+        group = "factorican",
+        order = "g",
+    },
 })
