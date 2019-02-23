@@ -284,4 +284,14 @@ data:extend(
         order = "z",
         stack_size = 100
     },
+    {
+        type = "item",
+        name = "fm-carbon",
+        icon = "__factoricanindustry__/graphics/icons/items/fm-carbon.png",
+        icon_size = 32,
+        flags = {"goes-to-main-inventory"},
+        subgroup = "factorican-circuit",
+        order = "z",
+        stack_size = 100
+    },
 })

@@ -81,7 +81,7 @@ data:extend(
 			{type="item", name="fm-silicon-crystal-ingot", amount=1},
 		},
 		results = {
-			{type="item", name="fm-silicon-wafer", amount=10},
+			{type="item", name="fm-silicon-wafer", amount=100},
 		},
 		icon = "__factoricanindustry__/graphics/icons/items/fm-silicon-wafer.png",
 		icon_size = 32,
@@ -113,7 +113,7 @@ data:extend(
 		energy_required = 2,
 		enabled = true,
 		ingredients = {
-			{type="item", name="copper-plate", amount=1},
+			{type="item", name="copper-plate", amount=3},
 		},
 		results = {
 			{type="item", name="fm-solder", amount=1},
@@ -130,7 +130,7 @@ data:extend(
 		energy_required = 2,
 		enabled = true,
 		ingredients = {
-			{type="item", name="iron-plate", amount=1},
+			{type="item", name="iron-plate", amount=2},
 			{type="item", name="fm-carbon", amount=1},
 		},
 		results = {
@@ -148,8 +148,8 @@ data:extend(
 		energy_required = 2,
 		enabled = true,
 		ingredients = {
-			{type="item", name="iron-plate", amount=1},
-			{type="item", name="copper-cable", amount=4},
+			{type="item", name="iron-plate", amount=2},
+			{type="item", name="copper-cable", amount=6},
 		},
 		results = {
 			{type="item", name="fm-inductor", amount=1},
@@ -166,7 +166,7 @@ data:extend(
 		energy_required = 2,
 		enabled = true,
 		ingredients = {
-			{type="item", name="plastic-bar", amount=1},
+			{type="item", name="plastic-bar", amount=2},
 			{type="item", name="copper-cable", amount=4},
 		},
 		results = {
@@ -185,7 +185,7 @@ data:extend(
 		enabled = true,
 		ingredients = {
 			{type="item", name="fm-silicon-wafer", amount=1},
-			{type="item", name="copper-cable", amount=4},
+			{type="item", name="copper-cable", amount=6},
 		},
 		results = {
 			{type="item", name="fm-transistor", amount=1},
@@ -204,8 +204,9 @@ data:extend(
 		ingredients = {
 			{type="item", name="fm-silicon-wafer", amount=1},
 			{type="fluid", name="sulfuric-acid", amount=10},
-			{type="item", name="copper-plate", amount=1},
-			{type="item", name="copper-cable", amount=4},
+			{type="item", name="iron-plate", amount=5},
+			{type="item", name="copper-plate", amount=2},
+			{type="item", name="copper-cable", amount=6},
 		},
 		results = {
 			{type="item", name="fm-integrated-circuit", amount=1},
@@ -225,7 +226,7 @@ data:extend(
 		ingredients = {
 			{type="item", name="fm-fiberglass-substrate", amount=1},
 			{type="item", name="copper-plate", amount=1},
-			{type="fluid", name="sulfuric-acid", amount=10},
+			{type="fluid", name="sulfuric-acid", amount=5},
 		},
 		results = {
 			{type="item", name="fm-single-layer-circuit-board", amount=1},
@@ -243,7 +244,7 @@ data:extend(
 		enabled = true,
 		ingredients = {
 			{type="item", name="fm-single-layer-circuit-board", amount=1},
-			{type="item", name="fm-resistor", amount=5},
+			{type="item", name="fm-resistor", amount=4},
 		},
 		results = {
 			{type="item", name="fm-electronic-circuit-stage-1", amount=1},
@@ -261,7 +262,7 @@ data:extend(
 		enabled = true,
 		ingredients = {
 			{type="item", name="fm-electronic-circuit-stage-1", amount=1},
-			{type="item", name="fm-inductor", amount=5},
+			{type="item", name="fm-inductor", amount=4},
 		},
 		results = {
 			{type="item", name="fm-electronic-circuit-stage-2", amount=1},
@@ -279,7 +280,7 @@ data:extend(
 		enabled = true,
 		ingredients = {
 			{type="item", name="fm-electronic-circuit-stage-2", amount=1},
-			{type="item", name="fm-solder", amount=5},
+			{type="item", name="fm-solder", amount=4},
 		},
 		results = {
 			{type="item", name="fm-electronic-circuit-panel", amount=1},
@@ -317,7 +318,7 @@ data:extend(
 		enabled = true,
 		ingredients = {
 			{type="item", name="fm-double-layer-circuit-board", amount=1},
-			{type="item", name="fm-resistor", amount=10},
+			{type="item", name="fm-resistor", amount=8},
 		},
 		results = {
 			{type="item", name="fm-advanced-circuit-stage-1", amount=1},
@@ -335,7 +336,7 @@ data:extend(
 		enabled = true,
 		ingredients = {
 			{type="item", name="fm-advanced-circuit-stage-1", amount=1},
-			{type="item", name="fm-inductor", amount=10},
+			{type="item", name="fm-inductor", amount=8},
 		},
 		results = {
 			{type="item", name="fm-advanced-circuit-stage-2", amount=1},
@@ -353,7 +354,7 @@ data:extend(
 		enabled = true,
 		ingredients = {
 			{type="item", name="fm-advanced-circuit-stage-2", amount=1},
-			{type="item", name="fm-capacitor", amount=5},
+			{type="item", name="fm-capacitor", amount=6},
 		},
 		results = {
 			{type="item", name="fm-advanced-circuit-stage-3", amount=1},
@@ -371,7 +372,7 @@ data:extend(
 		enabled = true,
 		ingredients = {
 			{type="item", name="fm-advanced-circuit-stage-3", amount=1},
-			{type="item", name="fm-transistor", amount=5},
+			{type="item", name="fm-transistor", amount=6},
 		},
 		results = {
 			{type="item", name="fm-advanced-circuit-stage-4", amount=1},
@@ -389,7 +390,7 @@ data:extend(
 		enabled = true,
 		ingredients = {
 			{type="item", name="fm-advanced-circuit-stage-4", amount=1},
-			{type="item", name="fm-solder", amount=10},
+			{type="item", name="fm-solder", amount=8},
 		},
 		results = {
 			{type="item", name="fm-advanced-circuit-panel", amount=1},
@@ -409,7 +410,7 @@ data:extend(
 		ingredients = {
 			{type="item", name="fm-fiberglass-substrate", amount=2},
 			{type="item", name="copper-plate", amount=3},
-			{type="fluid", name="sulfuric-acid", amount=10},
+			{type="fluid", name="sulfuric-acid", amount=15},
 		},
 		results = {
 			{type="item", name="fm-multi-layer-circuit-board", amount=1},
@@ -427,7 +428,7 @@ data:extend(
 		enabled = true,
 		ingredients = {
 			{type="item", name="fm-multi-layer-circuit-board", amount=1},
-			{type="item", name="fm-resistor", amount=15},
+			{type="item", name="fm-resistor", amount=16},
 		},
 		results = {
 			{type="item", name="fm-processing-unit-stage-1", amount=1},
@@ -445,7 +446,7 @@ data:extend(
 		enabled = true,
 		ingredients = {
 			{type="item", name="fm-processing-unit-stage-1", amount=1},
-			{type="item", name="fm-inductor", amount=15},
+			{type="item", name="fm-inductor", amount=16},
 		},
 		results = {
 			{type="item", name="fm-processing-unit-stage-2", amount=1},
@@ -463,7 +464,7 @@ data:extend(
 		enabled = true,
 		ingredients = {
 			{type="item", name="fm-processing-unit-stage-2", amount=1},
-			{type="item", name="fm-capacitor", amount=10},
+			{type="item", name="fm-capacitor", amount=12},
 		},
 		results = {
 			{type="item", name="fm-processing-unit-stage-3", amount=1},
@@ -481,7 +482,7 @@ data:extend(
 		enabled = true,
 		ingredients = {
 			{type="item", name="fm-processing-unit-stage-3", amount=1},
-			{type="item", name="fm-transistor", amount=10},
+			{type="item", name="fm-transistor", amount=12},
 		},
 		results = {
 			{type="item", name="fm-processing-unit-stage-4", amount=1},
@@ -499,7 +500,7 @@ data:extend(
 		enabled = true,
 		ingredients = {
 			{type="item", name="fm-processing-unit-stage-4", amount=1},
-			{type="item", name="fm-integrated-circuit", amount=5},
+			{type="item", name="fm-integrated-circuit", amount=8},
 		},
 		results = {
 			{type="item", name="fm-processing-unit-stage-5", amount=1},
@@ -517,7 +518,7 @@ data:extend(
 		enabled = true,
 		ingredients = {
 			{type="item", name="fm-processing-unit-stage-5", amount=1},
-			{type="item", name="fm-solder", amount=15},
+			{type="item", name="fm-solder", amount=16},
 		},
 		results = {
 			{type="item", name="fm-processing-unit-panel", amount=1},
@@ -572,7 +573,7 @@ data:extend(
 			{type="item", name="fm-processing-unit-panel", amount=1},
 		},
 		results = {
-			{type="item", name="processing-unit", amount=15},
+			{type="item", name="processing-unit", amount=5},
 		},
 		icon = "__base__/graphics/icons/processing-unit.png",
 		icon_size = 32,
