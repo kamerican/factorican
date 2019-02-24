@@ -16,7 +16,7 @@ data:extend(
 		},
 		icon = "__factoricanindustry__/graphics/icons/recipes/fr-crude-oil-separation.png",
 		icon_size = 32,
-		order = "z",
+		order = "aa",
     },
     {
 		type = "recipe",
@@ -35,7 +35,7 @@ data:extend(
 		},
 		icon = "__factoricanindustry__/graphics/icons/recipes/fr-dead-oil-fractional-distillation.png",
 		icon_size = 32,
-		order = "z",
+		order = "aa",
     },
     {
 		type = "recipe",
@@ -52,7 +52,7 @@ data:extend(
 		},
 		icon = "__factoricanindustry__/graphics/icons/recipes/fr-lubricant-from-base-oil.png",
 		icon_size = 32,
-		order = "z",
+		order = "ba",
     },
     {
 		type = "recipe",
@@ -71,7 +71,7 @@ data:extend(
 		},
 		icon = "__factoricanindustry__/graphics/icons/recipes/fr-base-oil-cracking.png",
 		icon_size = 32,
-		order = "z",
+		order = "bb",
     },
     {
 		type = "recipe",
@@ -88,7 +88,7 @@ data:extend(
 		},
 		icon = "__factoricanindustry__/graphics/icons/recipes/fr-solid-fuel-from-fuel-oil.png",
 		icon_size = 32,
-		order = "z",
+		order = "ca",
     },
     {
 		type = "recipe",
@@ -106,7 +106,7 @@ data:extend(
 		},
 		icon = "__factoricanindustry__/graphics/icons/recipes/fr-solid-fuel-from-residual-oil.png",
 		icon_size = 32,
-		order = "z",
+		order = "ea",
     },
     {
 		type = "recipe",
@@ -125,13 +125,13 @@ data:extend(
 		},
 		icon = "__factoricanindustry__/graphics/icons/recipes/fr-fuel-oil-cracking.png",
 		icon_size = 32,
-		order = "z",
+		order = "cb",
     },
     {
 		type = "recipe",
 		name = "fr-8",
 		category = "chemistry",
-		subgroup = "factorican-hydrocarbon",
+		subgroup = "factorican-plastic",
 		energy_required = 5,
 		enabled = true,
 		ingredients = {
@@ -143,13 +143,13 @@ data:extend(
 		},
 		icon = "__factoricanindustry__/graphics/icons/recipes/fr-polymer-feed-from-naphtha.png",
 		icon_size = 32,
-		order = "z",
+		order = "ab",
     },
     {
 		type = "recipe",
 		name = "fr-9",
 		category = "chemistry",
-		subgroup = "factorican-hydrocarbon",
+		subgroup = "factorican-plastic",
 		energy_required = 5,
 		enabled = true,
 		ingredients = {
@@ -161,13 +161,13 @@ data:extend(
 		},
 		icon = "__factoricanindustry__/graphics/icons/recipes/fr-polymer-feed-from-natural-gas-liquid.png",
 		icon_size = 32,
-		order = "z",
+		order = "ac",
     },
     {
 		type = "recipe",
 		name = "fr-10",
 		category = "chemistry",
-		subgroup = "factorican-hydrocarbon",
+		subgroup = "factorican-plastic",
 		energy_required = 1,
 		enabled = true,
 		ingredients = {
@@ -179,7 +179,7 @@ data:extend(
 		},
 		icon = "__factoricanindustry__/graphics/icons/recipes/fr-plastic-bar.png",
 		icon_size = 32,
-		order = "z",
+		order = "aa",
     },
     {
 		type = "recipe",
@@ -198,7 +198,7 @@ data:extend(
 		},
 		icon = "__factoricanindustry__/graphics/icons/recipes/fr-solution-gas-cryogenic-distillation.png",
 		icon_size = 32,
-		order = "z",
+		order = "ab",
     },
     {
 		type = "recipe",
@@ -217,7 +217,7 @@ data:extend(
 		},
 		icon = "__factoricanindustry__/graphics/icons/items/fr-combustion-fuel.png",
 		icon_size = 32,
-		order = "z",
+		order = "aab",
     },
     {
 		type = "recipe",
@@ -234,7 +234,7 @@ data:extend(
 		},
 		icon = "__factoricanindustry__/graphics/icons/recipes/fr-sulfur-dioxide-from-hydrogen-sulfide.png",
 		icon_size = 32,
-		order = "z",
+		order = "a",
     },
     {
 		type = "recipe",
@@ -251,7 +251,7 @@ data:extend(
 		},
 		icon = "__factoricanindustry__/graphics/icons/recipes/fr-sulfur-dioxide-from-sulfur.png",
 		icon_size = 32,
-		order = "z",
+		order = "b",
     },
     {
 		type = "recipe",
@@ -270,7 +270,7 @@ data:extend(
 		},
 		icon = "__factoricanindustry__/graphics/icons/recipes/fr-sulfur-from-claus-process.png",
 		icon_size = 32,
-		order = "z",
+		order = "c",
     },
     {
 		type = "recipe",
@@ -288,7 +288,7 @@ data:extend(
 		},
 		icon = "__factoricanindustry__/graphics/icons/items/fr-sulfur-trioxide.png",
 		icon_size = 32,
-		order = "z",
+		order = "d",
     },
     {
 		type = "recipe",
@@ -306,13 +306,13 @@ data:extend(
 		},
 		icon = "__factoricanindustry__/graphics/icons/recipes/fr-sulfuric-acid.png",
 		icon_size = 32,
-		order = "z",
+		order = "e",
     },
     {
 		type = "recipe",
 		name = "fr-18",
 		category = "chemistry",
-		subgroup = "factorican-hydrocarbon",
+		subgroup = "factorican-plastic",
 		energy_required = 3,
 		enabled = true,
 		ingredients = {
@@ -323,13 +323,13 @@ data:extend(
 		},
 		icon = "__factoricanindustry__/graphics/icons/items/fr-crosslinker.png",
 		icon_size = 32,
-		order = "z",
+		order = "ae",
     },
     {
 		type = "recipe",
 		name = "fr-19",
 		category = "chemistry",
-		subgroup = "factorican-hydrocarbon",
+		subgroup = "factorican-plastic",
 		energy_required = 3,
 		enabled = true,
 		ingredients = {
@@ -341,7 +341,7 @@ data:extend(
 		},
 		icon = "__factoricanindustry__/graphics/icons/recipes/fr-polymer-feed-from-inverse-vulcanization.png",
 		icon_size = 32,
-		order = "z",
+		order = "af",
     },
     {
 		type = "recipe",
@@ -359,6 +359,35 @@ data:extend(
 		},
 		icon = "__factoricanindustry__/graphics/icons/items/fr-metal-oxide-catalyst.png",
 		icon_size = 32,
-		order = "z",
+		order = "a",
     },
 })
+
+
+recipe_list = {
+    "fr-1",
+    "fr-2",
+    "fr-3",
+    "fr-4",
+    "fr-5",
+    "fr-6",
+    "fr-7",
+    "fr-8",
+    "fr-9",
+    "fr-10",
+    "fr-11",
+    "fr-12",
+    "fr-13",
+    "fr-14",
+    "fr-15",
+    "fr-16",
+    "fr-17",
+    "fr-18",
+    "fr-19",
+    "fr-20",
+}
+for index, recipe_entry in ipairs(recipe_list) do
+    table.insert(data.raw.module["productivity-module"].limitation, recipe_entry)
+    table.insert(data.raw.module["productivity-module-2"].limitation, recipe_entry)
+    table.insert(data.raw.module["productivity-module-3"].limitation, recipe_entry)
+end

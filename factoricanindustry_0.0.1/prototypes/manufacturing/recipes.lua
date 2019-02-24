@@ -580,3 +580,41 @@ data:extend(
 		order = "eh",
     },
 })
+
+
+
+
+
+recipe_list = {
+    "fm-3",
+    "fm-4",
+    "fm-5",
+    "fm-6",
+    "fm-7",
+    "fm-8",
+    "fm-9",
+    "fm-10",
+    "fm-11",
+    "fm-12",
+    "fm-13",
+    "fm-14",
+    "fm-15",
+    "fm-16",
+    "fm-17",
+    "fm-18",
+    "fm-19",
+    "fm-20",
+    "fm-21",
+    "fm-22",
+    "fm-23",
+    "fm-24",
+    "fm-25",
+    "fm-26",
+    "fm-27",
+    "fm-28",
+}
+for index, recipe_entry in ipairs(recipe_list) do
+    table.insert(data.raw.module["productivity-module"].limitation, recipe_entry)
+    table.insert(data.raw.module["productivity-module-2"].limitation, recipe_entry)
+    table.insert(data.raw.module["productivity-module-3"].limitation, recipe_entry)
+end

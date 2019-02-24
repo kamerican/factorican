@@ -16,7 +16,7 @@ data:extend(
 		},
 		icon = "__factoricanindustry__/graphics/icons/items/fs-reduced-iron-ore.png",
 		icon_size = 32,
-		order = "z",
+		order = "a",
     },
     {
 		type = "recipe",
@@ -37,7 +37,7 @@ data:extend(
 		},
 		icon = "__factoricanindustry__/graphics/icons/items/fs-molten-iron.png",
 		icon_size = 32,
-		order = "z",
+		order = "b",
     },
     {
 		type = "recipe",
@@ -54,7 +54,7 @@ data:extend(
 		},
 		icon = "__base__/graphics/icons/iron-plate.png",
 		icon_size = 32,
-		order = "z",
+		order = "c",
     },
     {
 		type = "recipe",
@@ -73,7 +73,7 @@ data:extend(
 		},
 		icon = "__factoricanindustry__/graphics/icons/items/fs-molten-steel.png",
 		icon_size = 32,
-		order = "z",
+		order = "d",
     },
     {
 		type = "recipe",
@@ -90,7 +90,7 @@ data:extend(
 		},
 		icon = "__base__/graphics/icons/steel-plate.png",
 		icon_size = 32,
-		order = "z",
+		order = "e",
     },
     {
 		type = "recipe",
@@ -107,7 +107,7 @@ data:extend(
 		},
 		icon = "__factoricanindustry__/graphics/icons/items/fs-reduction-gas.png",
 		icon_size = 32,
-		order = "z",
+		order = "a",
     },
     {
 		type = "recipe",
@@ -126,7 +126,7 @@ data:extend(
 		},
 		icon = "__factoricanindustry__/graphics/icons/items/fs-copper-concentrate.png",
 		icon_size = 32,
-		order = "z",
+		order = "a",
     },
     {
 		type = "recipe",
@@ -146,7 +146,7 @@ data:extend(
 		},
 		icon = "__factoricanindustry__/graphics/icons/items/fs-molten-copper.png",
 		icon_size = 32,
-		order = "z",
+		order = "b",
     },
     {
 		type = "recipe",
@@ -164,7 +164,7 @@ data:extend(
 		},
 		icon = "__factoricanindustry__/graphics/icons/items/fs-copper-anode.png",
 		icon_size = 32,
-		order = "z",
+		order = "c",
     },
     {
 		type = "recipe",
@@ -182,7 +182,7 @@ data:extend(
 		},
 		icon = "__factoricanindustry__/graphics/icons/items/fs-copper-cathode.png",
 		icon_size = 32,
-		order = "z",
+		order = "d",
     },
     {
 		type = "recipe",
@@ -199,7 +199,7 @@ data:extend(
 		},
 		icon = "__base__/graphics/icons/copper-plate.png",
 		icon_size = 32,
-		order = "z",
+		order = "e",
     },
     {
 		type = "recipe",
@@ -216,7 +216,7 @@ data:extend(
 		},
 		icon = "__factoricanindustry__/graphics/icons/items/fs-flux-rock.png",
 		icon_size = 32,
-		order = "z",
+		order = "a",
     },
     {
 		type = "recipe",
@@ -233,6 +233,26 @@ data:extend(
 		},
 		icon = "__base__/graphics/icons/stone.png",
 		icon_size = 32,
-		order = "z",
+		order = "b",
     },
 })
+
+
+
+recipe_list = {
+    "fs-1",
+    "fs-2",
+    "fs-3",
+    "fs-4",
+    "fs-5",
+    "fs-7",
+    "fs-8",
+    "fs-9",
+    "fs-10",
+    "fs-11",
+}
+for index, recipe_entry in ipairs(recipe_list) do
+    table.insert(data.raw.module["productivity-module"].limitation, recipe_entry)
+    table.insert(data.raw.module["productivity-module-2"].limitation, recipe_entry)
+    table.insert(data.raw.module["productivity-module-3"].limitation, recipe_entry)
+end

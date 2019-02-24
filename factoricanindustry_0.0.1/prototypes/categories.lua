@@ -32,7 +32,13 @@ data:extend(
         type = "item-subgroup",
         name = "factorican-hydrocarbon",
         group = "factorican",
-        order = "b",
+        order = "ba",
+    },
+    {
+        type = "item-subgroup",
+        name = "factorican-plastic",
+        group = "factorican",
+        order = "bb",
     },
     {
         type = "item-subgroup",
@@ -68,18 +74,18 @@ data:extend(
         type = "item-subgroup",
         name = "factorican-green",
         group = "factorican",
-        order = "g",
+        order = "h",
     },
     {
         type = "item-subgroup",
         name = "factorican-red",
         group = "factorican",
-        order = "g",
+        order = "i",
     },
     {
         type = "item-subgroup",
         name = "factorican-blue",
         group = "factorican",
-        order = "g",
+        order = "j",
     },
 })
