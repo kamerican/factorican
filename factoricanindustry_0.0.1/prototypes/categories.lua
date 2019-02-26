@@ -36,6 +36,12 @@ data:extend(
     },
     {
         type = "item-subgroup",
+        name = "factorican-coal",
+        group = "factorican",
+        order = "baa",
+    },
+    {
+        type = "item-subgroup",
         name = "factorican-plastic",
         group = "factorican",
         order = "bb",

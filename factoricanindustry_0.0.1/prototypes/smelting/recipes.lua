@@ -28,12 +28,12 @@ data:extend(
 		ingredients = {
 			{type="item", name="fs-reduced-iron-ore", amount=20},
 			{type="item", name="coal", amount=2},
-			{type="item", name="fs-flux-rock", amount=2},
+			-- {type="item", name="fs-flux-rock", amount=2},
 		},
 		results = {
 			{type="fluid", name="fs-molten-iron", amount=200},
 			{type="fluid", name="fs-reduction-gas", amount=100},
-			{type="item", name="fs-slag", amount=2},
+			-- {type="item", name="fs-slag", amount=2},
 		},
 		icon = "__factoricanindustry__/graphics/icons/items/fs-molten-iron.png",
 		icon_size = 32,
@@ -65,11 +65,11 @@ data:extend(
 		enabled = true,
 		ingredients = {
 			{type="fluid", name="fs-molten-iron", amount=200},
-			{type="item", name="fs-flux-rock", amount=2},
+			-- {type="item", name="fs-flux-rock", amount=2},
 		},
 		results = {
 			{type="fluid", name="fs-molten-steel", amount=200},
-			{type="item", name="fs-slag", amount=2},
+			-- {type="item", name="fs-slag", amount=2},
 		},
 		icon = "__factoricanindustry__/graphics/icons/items/fs-molten-steel.png",
 		icon_size = 32,
@@ -137,12 +137,12 @@ data:extend(
 		enabled = true,
 		ingredients = {
 			{type="item", name="fs-copper-concentrate", amount=20},
-			{type="item", name="fs-flux-rock", amount=2},
+			-- {type="item", name="fs-flux-rock", amount=2},
 		},
 		results = {
 			{type="fluid", name="fs-molten-copper", amount=200},
 			{type="fluid", name="fr-sulfur-dioxide", amount=10},
-			{type="item", name="fs-slag", amount=2},
+			-- {type="item", name="fs-slag", amount=2},
 		},
 		icon = "__factoricanindustry__/graphics/icons/items/fs-molten-copper.png",
 		icon_size = 32,
@@ -207,7 +207,7 @@ data:extend(
 		category = "crafting",
 		subgroup = "factorican-stone",
 		energy_required = 1,
-		enabled = true,
+		enabled = false, -- not used
 		ingredients = {
 			{type="item", name="stone", amount=3},
 		},
@@ -224,7 +224,7 @@ data:extend(
 		category = "crafting",
 		subgroup = "factorican-stone",
 		energy_required = 1,
-		enabled = true,
+		enabled = false, -- not used
 		ingredients = {
 			{type="item", name="fs-slag", amount=3},
 		},

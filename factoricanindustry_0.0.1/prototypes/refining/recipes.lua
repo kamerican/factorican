@@ -361,6 +361,48 @@ data:extend(
 		icon_size = 32,
 		order = "a",
     },
+    {
+		type = "recipe",
+		name = "fr-21",
+		category = "oil-processing",
+		subgroup = "factorican-coal",
+		energy_required = 5,
+		enabled = true,
+		ingredients = {
+			{type="item", name="coal", amount=10},
+			{type="fluid", name="water", amount=100},
+			{type="fluid", name="steam", amount=15},
+		},
+		results = {
+			{type="fluid", name="fr-syngas", amount=50},
+            {type="fluid", name="steam", amount=100},
+			{type="fluid", name="fr-hydrogen-sulfide", amount=10},
+		},
+		icon = "__factoricanindustry__/graphics/icons/items/fr-syngas.png",
+		icon_size = 32,
+		order = "a",
+    },
+    {
+		type = "recipe",
+		name = "fr-22",
+		category = "oil-processing",
+		subgroup = "factorican-coal",
+		energy_required = 5,
+		enabled = true,
+		ingredients = {
+			{type="item", name="fr-metal-oxide-catalyst", amount=1},
+			{type="fluid", name="fr-syngas", amount=50},
+			{type="fluid", name="water", amount=100},
+		},
+		results = {
+			{type="fluid", name="fr-fuel-oil", amount=25},
+            {type="fluid", name="fr-naphtha", amount=25},
+			{type="fluid", name="steam", amount=100},
+		},
+		icon = "__factoricanindustry__/graphics/icons/recipes/fr-fischer-tropsch.png",
+		icon_size = 32,
+		order = "b",
+    },
 })
 
 

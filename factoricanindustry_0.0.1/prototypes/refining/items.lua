@@ -206,4 +206,18 @@ data:extend(
         order = "z",
         stack_size = 100
     },
+    {
+        type = "fluid",
+        name = "fr-syngas",
+        icon = "__factoricanindustry__/graphics/icons/items/fr-syngas.png",
+        icon_size = 32,
+        subgroup = "factorican-coal",
+        default_temperature = 25,
+        heat_capacity = "0.1KJ",
+        base_color = {r = 0.5, g = 0, b = 0.5},
+        flow_color = {r = 0.5, g = 0, b = 0.5},
+        max_temperature = 1000,
+        pressure_to_speed_ratio = 0.4,
+        flow_to_energy_ratio = 0.59,
+    },
 })
