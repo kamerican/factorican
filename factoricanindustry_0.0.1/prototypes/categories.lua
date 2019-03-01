@@ -9,10 +9,6 @@ data:extend(
         type = "recipe-category",
         name = "factorican-chip-shooting",
     },
-    -- {
-    --     type = "recipe-category",
-    --     name = "factorican-electronics-fabrication",
-    -- },
     -- Item group
     {
         type = "item-group",

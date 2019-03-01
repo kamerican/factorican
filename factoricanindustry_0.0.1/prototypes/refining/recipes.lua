@@ -371,11 +371,11 @@ data:extend(
 		ingredients = {
 			{type="item", name="coal", amount=10},
 			{type="fluid", name="water", amount=100},
-			{type="fluid", name="steam", amount=15},
+			{type="fluid", name="steam", amount=50},
 		},
 		results = {
-			{type="fluid", name="fr-syngas", amount=50},
-            {type="fluid", name="steam", amount=100},
+			{type="fluid", name="fr-syngas", amount=100},
+            {type="fluid", name="fs-slag", amount=10},
 			{type="fluid", name="fr-hydrogen-sulfide", amount=10},
 		},
 		icon = "__factoricanindustry__/graphics/icons/items/fr-syngas.png",
@@ -391,12 +391,12 @@ data:extend(
 		enabled = true,
 		ingredients = {
 			{type="item", name="fr-metal-oxide-catalyst", amount=1},
-			{type="fluid", name="fr-syngas", amount=50},
+			{type="fluid", name="fr-syngas", amount=100},
 			{type="fluid", name="water", amount=100},
 		},
 		results = {
-			{type="fluid", name="fr-fuel-oil", amount=25},
-            {type="fluid", name="fr-naphtha", amount=25},
+			{type="fluid", name="fr-fuel-oil", amount=50},
+            {type="fluid", name="fr-naphtha", amount=50},
 			{type="fluid", name="steam", amount=100},
 		},
 		icon = "__factoricanindustry__/graphics/icons/recipes/fr-fischer-tropsch.png",
@@ -427,6 +427,8 @@ recipe_list = {
     "fr-18",
     "fr-19",
     "fr-20",
+    "fr-21",
+    "fr-22",
 }
 for index, recipe_entry in ipairs(recipe_list) do
     table.insert(data.raw.module["productivity-module"].limitation, recipe_entry)

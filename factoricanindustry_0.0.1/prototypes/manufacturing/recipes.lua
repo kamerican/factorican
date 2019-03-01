@@ -44,10 +44,12 @@ data:extend(
 		enabled = true,
 		ingredients = {
 			{type="item", name="fm-quartz", amount=10},
+			{type="item", name="fs-flux-rock", amount=1},
 			{type="fluid", name="fs-reduction-gas", amount=50},
 		},
 		results = {
 			{type="fluid", name="fm-molten-silicon", amount=100},
+			{type="fluid", name="fs-slag", amount=10},
 		},
 		icon = "__factoricanindustry__/graphics/icons/items/fm-molten-silicon.png",
 		icon_size = 32,
