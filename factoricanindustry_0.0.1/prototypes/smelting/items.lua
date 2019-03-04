@@ -19,9 +19,8 @@ data:extend(
         name = "fs-reduced-iron-ore",
         icon = "__factoricanindustry__/graphics/icons/items/fs-reduced-iron-ore.png",
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
         subgroup = "factorican-iron",
-        order = "z",
+        order = "a",
         stack_size = 100
     },
     {
@@ -29,9 +28,8 @@ data:extend(
         name = "fs-flux-rock",
         icon = "__factoricanindustry__/graphics/icons/items/fs-flux-rock.png",
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
         subgroup = "factorican-iron",
-        order = "z",
+        order = "a",
         stack_size = 100
     },
     {
@@ -63,6 +61,15 @@ data:extend(
         flow_to_energy_ratio = 0.59,
     },
     {
+        type = "item",
+        name = "fs-iron-ingot",
+        icon = "__factoricanindustry__/graphics/icons/items/fs-iron-ingot.png",
+        icon_size = 32,
+        subgroup = "factorican-iron",
+        order = "a",
+        stack_size = 10
+    },
+    {
         type = "fluid",
         name = "fs-molten-steel",
         icon = "__factoricanindustry__/graphics/icons/items/fs-molten-steel.png",
@@ -78,12 +85,20 @@ data:extend(
     },
     {
         type = "item",
+        name = "fs-steel-billet",
+        icon = "__factoricanindustry__/graphics/icons/items/fs-steel-billet.png",
+        icon_size = 32,
+        subgroup = "factorican-iron",
+        order = "a",
+        stack_size = 10
+    },
+    {
+        type = "item",
         name = "fs-copper-concentrate",
         icon = "__factoricanindustry__/graphics/icons/items/fs-copper-concentrate.png",
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
         subgroup = "factorican-copper",
-        order = "z",
+        order = "a",
         stack_size = 100
     },
     {
@@ -105,9 +120,8 @@ data:extend(
         name = "fs-copper-anode",
         icon = "__factoricanindustry__/graphics/icons/items/fs-copper-anode.png",
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
         subgroup = "factorican-copper",
-        order = "z",
+        order = "a",
         stack_size = 100
     },
     {
@@ -115,9 +129,8 @@ data:extend(
         name = "fs-copper-cathode",
         icon = "__factoricanindustry__/graphics/icons/items/fs-copper-cathode.png",
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
         subgroup = "factorican-copper",
-        order = "z",
+        order = "a",
         stack_size = 100
     },
 })

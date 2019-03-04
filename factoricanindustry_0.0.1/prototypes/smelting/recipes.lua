@@ -50,6 +50,23 @@ data:extend(
 			{type="fluid", name="fs-molten-iron", amount=200},
 		},
 		results = {
+			{type="item", name="fs-iron-ingot", amount=1},
+		},
+		icon = "__factoricanindustry__/graphics/icons/items/fs-iron-ingot.png",
+		icon_size = 32,
+		order = "ba",
+    },
+    {
+		type = "recipe",
+		name = "fs-14",
+		category = "crafting",
+		subgroup = "factorican-iron",
+		energy_required = 5,
+		enabled = true,
+		ingredients = {
+			{type="item", name="fs-iron-ingot", amount=1},
+		},
+		results = {
 			{type="item", name="iron-plate", amount=25},
 		},
 		icon = "__base__/graphics/icons/iron-plate.png",
@@ -83,10 +100,27 @@ data:extend(
 		energy_required = 5,
 		enabled = true,
 		ingredients = {
-			{type="fluid", name="fs-molten-steel", amount=200},
+			{type="fluid", name="fs-molten-steel", amount=1000},
 		},
 		results = {
-			{type="item", name="steel-plate", amount=5},
+			{type="item", name="fs-steel-billet", amount=1},
+		},
+		icon = "__factoricanindustry__/graphics/icons/items/fs-steel-billet.png",
+		icon_size = 32,
+		order = "e",
+    },
+    {
+		type = "recipe",
+		name = "fs-15",
+		category = "crafting",
+		subgroup = "factorican-iron",
+		energy_required = 5,
+		enabled = true,
+		ingredients = {
+			{type="item", name="fs-steel-billet", amount=1},
+		},
+		results = {
+			{type="item", name="steel-plate", amount=25},
 		},
 		icon = "__base__/graphics/icons/steel-plate.png",
 		icon_size = 32,
@@ -187,7 +221,7 @@ data:extend(
     {
 		type = "recipe",
 		name = "fs-11",
-		category = "advanced-crafting",
+		category = "crafting",
 		subgroup = "factorican-copper",
 		energy_required = 5,
 		enabled = true,
@@ -209,10 +243,10 @@ data:extend(
 		energy_required = 1,
 		enabled = true,
 		ingredients = {
-			{type="item", name="stone", amount=3},
+			{type="item", name="stone", amount=1},
 		},
 		results = {
-			{type="item", name="fs-flux-rock", amount=1},
+			{type="item", name="fs-flux-rock", amount=3},
 		},
 		icon = "__factoricanindustry__/graphics/icons/items/fs-flux-rock.png",
 		icon_size = 32,
@@ -226,7 +260,7 @@ data:extend(
 		energy_required = 1,
 		enabled = true,
 		ingredients = {
-			{type="fluid", name="fs-slag", amount=10},
+			{type="fluid", name="fs-slag", amount=50},
 		},
 		results = {
 			{type="item", name="stone-brick", amount=1},
@@ -250,6 +284,10 @@ recipe_list = {
     "fs-9",
     "fs-10",
     "fs-11",
+    "fs-12",
+    "fs-13",
+    "fs-14",
+    "fs-15",
 }
 for index, recipe_entry in ipairs(recipe_list) do
     table.insert(data.raw.module["productivity-module"].limitation, recipe_entry)

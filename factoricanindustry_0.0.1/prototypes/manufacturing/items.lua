@@ -5,7 +5,6 @@ data:extend(
         name = "fm-quartz",
         icon = "__factoricanindustry__/graphics/icons/items/fm-quartz.png",
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
         subgroup = "factorican-stone",
         order = "z",
         stack_size = 100
@@ -15,7 +14,6 @@ data:extend(
         name = "fm-fiberglass-substrate",
         icon = "__factoricanindustry__/graphics/icons/items/fm-fiberglass-substrate.png",
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
         subgroup = "factorican-circuit",
         order = "z",
         stack_size = 100
@@ -25,7 +23,6 @@ data:extend(
         name = "fm-solder",
         icon = "__factoricanindustry__/graphics/icons/items/fm-solder.png",
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
         subgroup = "factorican-circuit",
         order = "z",
         stack_size = 100
@@ -35,7 +32,6 @@ data:extend(
         name = "fm-resistor",
         icon = "__factoricanindustry__/graphics/icons/items/fm-resistor.png",
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
         subgroup = "factorican-circuit",
         order = "z",
         stack_size = 100
@@ -45,7 +41,6 @@ data:extend(
         name = "fm-inductor",
         icon = "__factoricanindustry__/graphics/icons/items/fm-inductor.png",
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
         subgroup = "factorican-circuit",
         order = "z",
         stack_size = 100
@@ -55,7 +50,6 @@ data:extend(
         name = "fm-capacitor",
         icon = "__factoricanindustry__/graphics/icons/items/fm-capacitor.png",
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
         subgroup = "factorican-circuit",
         order = "z",
         stack_size = 100
@@ -65,7 +59,6 @@ data:extend(
         name = "fm-transistor",
         icon = "__factoricanindustry__/graphics/icons/items/fm-transistor.png",
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
         subgroup = "factorican-circuit",
         order = "z",
         stack_size = 100
@@ -75,7 +68,6 @@ data:extend(
         name = "fm-integrated-circuit",
         icon = "__factoricanindustry__/graphics/icons/items/fm-integrated-circuit.png",
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
         subgroup = "factorican-circuit",
         order = "z",
         stack_size = 100
@@ -85,7 +77,6 @@ data:extend(
         name = "fm-single-layer-circuit-board",
         icon = "__factoricanindustry__/graphics/icons/items/fm-single-layer-circuit-board.png",
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
         subgroup = "factorican-circuit",
         order = "z",
         stack_size = 100
@@ -95,7 +86,6 @@ data:extend(
         name = "fm-electronic-circuit-stage-1",
         icon = "__factoricanindustry__/graphics/icons/items/fm-electronic-circuit-stage-1.png",
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
         subgroup = "factorican-circuit",
         order = "z",
         stack_size = 100
@@ -105,7 +95,6 @@ data:extend(
         name = "fm-electronic-circuit-stage-2",
         icon = "__factoricanindustry__/graphics/icons/items/fm-electronic-circuit-stage-2.png",
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
         subgroup = "factorican-circuit",
         order = "z",
         stack_size = 100
@@ -115,7 +104,6 @@ data:extend(
         name = "fm-electronic-circuit-panel",
         icon = "__factoricanindustry__/graphics/icons/items/fm-electronic-circuit-panel.png",
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
         subgroup = "factorican-circuit",
         order = "z",
         stack_size = 100
@@ -125,7 +113,6 @@ data:extend(
         name = "fm-double-layer-circuit-board",
         icon = "__factoricanindustry__/graphics/icons/items/fm-double-layer-circuit-board.png",
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
         subgroup = "factorican-circuit",
         order = "z",
         stack_size = 100
@@ -135,7 +122,6 @@ data:extend(
         name = "fm-advanced-circuit-stage-1",
         icon = "__factoricanindustry__/graphics/icons/items/fm-advanced-circuit-stage-1.png",
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
         subgroup = "factorican-circuit",
         order = "z",
         stack_size = 100
@@ -145,7 +131,6 @@ data:extend(
         name = "fm-advanced-circuit-stage-2",
         icon = "__factoricanindustry__/graphics/icons/items/fm-advanced-circuit-stage-2.png",
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
         subgroup = "factorican-circuit",
         order = "z",
         stack_size = 100
@@ -155,7 +140,6 @@ data:extend(
         name = "fm-advanced-circuit-stage-3",
         icon = "__factoricanindustry__/graphics/icons/items/fm-advanced-circuit-stage-3.png",
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
         subgroup = "factorican-circuit",
         order = "z",
         stack_size = 100
@@ -165,7 +149,6 @@ data:extend(
         name = "fm-advanced-circuit-stage-4",
         icon = "__factoricanindustry__/graphics/icons/items/fm-advanced-circuit-stage-4.png",
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
         subgroup = "factorican-circuit",
         order = "z",
         stack_size = 100
@@ -175,7 +158,6 @@ data:extend(
         name = "fm-advanced-circuit-panel",
         icon = "__factoricanindustry__/graphics/icons/items/fm-advanced-circuit-panel.png",
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
         subgroup = "factorican-circuit",
         order = "z",
         stack_size = 100
@@ -185,7 +167,6 @@ data:extend(
         name = "fm-multi-layer-circuit-board",
         icon = "__factoricanindustry__/graphics/icons/items/fm-multi-layer-circuit-board.png",
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
         subgroup = "factorican-circuit",
         order = "z",
         stack_size = 100
@@ -195,7 +176,6 @@ data:extend(
         name = "fm-processing-unit-stage-1",
         icon = "__factoricanindustry__/graphics/icons/items/fm-processing-unit-stage-1.png",
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
         subgroup = "factorican-circuit",
         order = "z",
         stack_size = 100
@@ -205,7 +185,6 @@ data:extend(
         name = "fm-processing-unit-stage-2",
         icon = "__factoricanindustry__/graphics/icons/items/fm-processing-unit-stage-2.png",
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
         subgroup = "factorican-circuit",
         order = "z",
         stack_size = 100
@@ -215,7 +194,6 @@ data:extend(
         name = "fm-processing-unit-stage-3",
         icon = "__factoricanindustry__/graphics/icons/items/fm-processing-unit-stage-3.png",
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
         subgroup = "factorican-circuit",
         order = "z",
         stack_size = 100
@@ -225,7 +203,6 @@ data:extend(
         name = "fm-processing-unit-stage-4",
         icon = "__factoricanindustry__/graphics/icons/items/fm-processing-unit-stage-4.png",
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
         subgroup = "factorican-circuit",
         order = "z",
         stack_size = 100
@@ -235,7 +212,6 @@ data:extend(
         name = "fm-processing-unit-stage-5",
         icon = "__factoricanindustry__/graphics/icons/items/fm-processing-unit-stage-5.png",
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
         subgroup = "factorican-circuit",
         order = "z",
         stack_size = 100
@@ -245,7 +221,6 @@ data:extend(
         name = "fm-processing-unit-panel",
         icon = "__factoricanindustry__/graphics/icons/items/fm-processing-unit-panel.png",
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
         subgroup = "factorican-circuit",
         order = "z",
         stack_size = 100
@@ -269,7 +244,6 @@ data:extend(
         name = "fm-silicon-crystal-ingot",
         icon = "__factoricanindustry__/graphics/icons/items/fm-silicon-crystal-ingot.png",
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
         subgroup = "factorican-circuit",
         order = "z",
         stack_size = 100
@@ -279,7 +253,6 @@ data:extend(
         name = "fm-silicon-wafer",
         icon = "__factoricanindustry__/graphics/icons/items/fm-silicon-wafer.png",
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
         subgroup = "factorican-circuit",
         order = "z",
         stack_size = 100
@@ -289,7 +262,6 @@ data:extend(
         name = "fm-carbon",
         icon = "__factoricanindustry__/graphics/icons/items/fm-carbon.png",
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
         subgroup = "factorican-circuit",
         order = "z",
         stack_size = 100

@@ -13,7 +13,6 @@ data:extend({
         name = "fr-combustion-turbine",
         icon = "__factoricanindustry__/graphics/icons/fr-combustion-turbine.png",
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
         subgroup = "factorican-building",
         order = "b",
         stack_size = 10,

@@ -11,7 +11,6 @@ data:extend({
         name = "fs-metallurgic-smelter",
         icon = "__factoricanindustry__/graphics/icons/fs-metallurgic-smelter.png",
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
         subgroup = "factorican-building",
         order = "a",
         stack_size = 10,

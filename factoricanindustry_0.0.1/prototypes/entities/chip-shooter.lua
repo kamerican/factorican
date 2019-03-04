@@ -17,7 +17,6 @@ data:extend({
         name = "fm-chip-shooter",
         icon = "__factoricanindustry__/graphics/icons/fm-chip-shooter.png",
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
         subgroup = "factorican-building",
         order = "a",
         stack_size = 10,

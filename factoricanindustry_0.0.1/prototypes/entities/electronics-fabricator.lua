@@ -11,7 +11,6 @@ data:extend({
         name = "fm-electronics-fabricator",
         icon = "__factoricanindustry__/graphics/icons/fm-electronics-fabricator.png",
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
         subgroup = "factorican-building",
         order = "a",
         stack_size = 10,

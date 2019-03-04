@@ -201,7 +201,6 @@ data:extend(
         name = "fr-metal-oxide-catalyst",
         icon = "__factoricanindustry__/graphics/icons/items/fr-metal-oxide-catalyst.png",
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
         subgroup = "factorican-hydrocarbon",
         order = "z",
         stack_size = 100
